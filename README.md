@@ -1,5 +1,5 @@
 ![Issues](https://img.shields.io/github/issues/AIDE-M/AIDE) ![GitHub pull requests](https://img.shields.io/github/issues-pr/AIDE-M/AIDE)
-# AIDE-Pro
+# AIDE-M
 AIDE-based mod that will help you develop mobile applications based on the Android platform.
 ## How is it different from AIDE?
 - Added aapt2
@@ -13,7 +13,7 @@ AIDE-based mod that will help you develop mobile applications based on the Andro
 As for now, you can get it only in [Telegram Group](https://t.me/aideremake). But when there will be completed version, it will be published in releases.
 
 ## Contributing
-Help in the development of AIDE-Pro by contributing new features or improvements. We will be glad.
+Help in the development of AIDE-M by contributing new features or improvements. We will be glad.
 
 Fork this repository and contribute back using
 [pull requests](https://github.com/AIDE-M/AIDE/pulls).
