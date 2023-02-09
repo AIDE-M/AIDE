@@ -1,4 +1,4 @@
-![Issues](https://img.shields.io/github/issues/hosni-fraj/Aide-Pro) ![GitHub pull requests](https://img.shields.io/github/issues-pr/hosni-fraj/Aide-Pro)
+![Issues](https://img.shields.io/github/issues/AIDE-M/AIDE) ![GitHub pull requests](https://img.shields.io/github/issues-pr/AIDE-M/AIDE)
 # AIDE-Pro
 AIDE-based mod that will help you develop mobile applications based on the Android platform.
 ## How is it different from AIDE?
