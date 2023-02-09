@@ -1,4 +1,4 @@
-![Issues](https://img.shields.io/github/issues/AIDE-M/AIDE) ![GitHub pull requests](https://img.shields.io/github/issues-pr/AIDE-M/AIDE)
+![Issues](https://img.shields.io/github/issues/AIDE-M/AIDE) ![GitHub pull requests](https://img.shields.io/github/issues-pr/AIDE-M/AIDE) <img src="https://img.shields.io/github/v/release/AIDE-M/AIDE?include_prereleases&amp;label=latest%20release" alt="Latest release">
 # AIDE-M
 AIDE-based mod that will help you develop mobile applications based on the Android platform.
 ## How is it different from AIDE?
