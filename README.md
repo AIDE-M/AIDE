@@ -2,18 +2,21 @@
 # AIDE-Pro
 AIDE-based mod that will help you develop mobile applications based on the Android platform.
 ## How is it different from AIDE?
-- Added Assets Manager (under development)
+- Added aapt2
+- Added D8/R8
+- Added Manifest Merger
+- Added Dependency Resolver
 - Adjusted some features
 - Fully in English (under development)
 
 ## Where can I get it?
-As for now, you can get it only in [Telegram Group](https://t.me/aideidepro). But when there will be completed version, it will be published in releases.
+As for now, you can get it only in [Telegram Group](https://t.me/aideremake). But when there will be completed version, it will be published in releases.
 
 ## Contributing
 Help in the development of AIDE-Pro by contributing new features or improvements. We will be glad.
 
 Fork this repository and contribute back using
-[pull requests](https://github.com/hosni-fraj/Aide-Pro/pulls).
+[pull requests](https://github.com/AIDE-M/AIDE/pulls).
 
 ### Commit message
 
@@ -39,6 +42,6 @@ Examples:
  - `fix: Fix crash during launch on certain phones`
  - `refactor: Reformat code at File.java`
 ## Contacts
-- <a href="https://t.me/aideidepro"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/768px-Telegram_logo.svg.png" width=16 height=16 /> Telegram Chat</a>
+- <a href="https://t.me/aideremake"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/768px-Telegram_logo.svg.png" width=16 height=16 /> Telegram Chat</a>
 - <a href="https://github.com/codee-team/codee-app/issues"><img src="https://user-images.githubusercontent.com/32961194/122037088-ebf2f700-cddc-11eb-9052-78e964c680f5.png" width=16 height=16 style="background: green;"/> Github Issues</a>
 
