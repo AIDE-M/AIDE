@@ -1,424 +1,424 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item type="id" name="aboutWebView">false</item>
-    <item type="id" name="action0">false</item>
-    <item type="id" name="action_container">false</item>
-    <item type="id" name="action_divider">false</item>
-    <item type="id" name="action_image">false</item>
-    <item type="id" name="action_text">false</item>
-    <item type="id" name="actions">false</item>
-    <item type="id" name="appwizardContentContainer">false</item>
-    <item type="id" name="appwizardEditButton">false</item>
-    <item type="id" name="appwizardEditButtonLayout">false</item>
-    <item type="id" name="appwizardModeButton">false</item>
-    <item type="id" name="appwizardRedoButton">false</item>
-    <item type="id" name="appwizardSectionContainer">false</item>
-    <item type="id" name="appwizardSectionTextView">false</item>
-    <item type="id" name="appwizardUndoButton">false</item>
-    <item type="id" name="browserHeaderIcon">false</item>
-    <item type="id" name="browserHeaderLabel">false</item>
-    <item type="id" name="browserHeaderMenuButton">false</item>
-    <item type="id" name="cancel_action">false</item>
-    <item type="id" name="chronometer">false</item>
-    <item type="id" name="colorpickerColorPickerView">false</item>
-    <item type="id" name="colorpickerEditText">false</item>
-    <item type="id" name="commitDiffView">false</item>
-    <item type="id" name="commitDifferencesScrollView">false</item>
-    <item type="id" name="commitFrame">false</item>
-    <item type="id" name="commitHeaderDirectoryName">false</item>
-    <item type="id" name="commitHeaderFileIcon">false</item>
-    <item type="id" name="commitHeaderFileName">false</item>
-    <item type="id" name="commitMenuCommit">false</item>
-    <item type="id" name="commitMenuDiscard">false</item>
-    <item type="id" name="commitSplitView">false</item>
-    <item type="id" name="completionEntryImage">false</item>
-    <item type="id" name="completionEntryName">false</item>
-    <item type="id" name="completionHelpButton">false</item>
-    <item type="id" name="completionList">false</item>
-    <item type="id" name="createkeystoreAlias">false</item>
-    <item type="id" name="createkeystoreCountry">false</item>
-    <item type="id" name="createkeystoreLocation">false</item>
-    <item type="id" name="createkeystoreName">false</item>
-    <item type="id" name="createkeystoreOrganization">false</item>
-    <item type="id" name="createkeystoreOrganizationalUnit">false</item>
-    <item type="id" name="createkeystorePassword">false</item>
-    <item type="id" name="createkeystorePassword2">false</item>
-    <item type="id" name="createkeystorePath">false</item>
-    <item type="id" name="createkeystoreState">false</item>
-    <item type="id" name="createkeystoreValidity">false</item>
-    <item type="id" name="createprojectLocation">false</item>
-    <item type="id" name="createprojectName">false</item>
-    <item type="id" name="createprojectPackage">false</item>
-    <item type="id" name="createprojectPackageLabel">false</item>
-    <item type="id" name="createprojectType">false</item>
-    <item type="id" name="debuggerEntryImage">false</item>
-    <item type="id" name="debuggerEntryList">false</item>
-    <item type="id" name="debuggerEntryName">false</item>
-    <item type="id" name="designerContent">false</item>
-    <item type="id" name="designerDrawer">false</item>
-    <item type="id" name="designerFrame">false</item>
-    <item type="id" name="designerHeaderLearnButton">false</item>
-    <item type="id" name="designerHeaderLearnTask">false</item>
-    <item type="id" name="designerHeaderLearnTaskInner">false</item>
-    <item type="id" name="designerHeaderLearnTaskText">false</item>
-    <item type="id" name="designerHeaderLearnTaskTitle">false</item>
-    <item type="id" name="designerMenuCopy">false</item>
-    <item type="id" name="designerMenuHideBorders">false</item>
-    <item type="id" name="designerMenuPaste">false</item>
-    <item type="id" name="designerMenuRedo">false</item>
-    <item type="id" name="designerMenuRun">false</item>
-    <item type="id" name="designerMenuShare">false</item>
-    <item type="id" name="designerMenuShowBorders">false</item>
-    <item type="id" name="designerMenuUndo">false</item>
-    <item type="id" name="designerViewList">false</item>
-    <item type="id" name="designerViewlistEntryImage">false</item>
-    <item type="id" name="designerViewlistEntryName">false</item>
-    <item type="id" name="designerViewlistFileImage">false</item>
-    <item type="id" name="designerViewlistentryDelete">false</item>
-    <item type="id" name="designerViewlistentryFileLayout">false</item>
-    <item type="id" name="designerViewlistentryFileName">false</item>
-    <item type="id" name="designerViewlistentryFileRadioButton">false</item>
-    <item type="id" name="designerViewlistentryViewLayout">false</item>
-    <item type="id" name="designersizedialogEditText">false</item>
-    <item type="id" name="designersizedialogMinusButton">false</item>
-    <item type="id" name="designersizedialogPlusButton">false</item>
-    <item type="id" name="designersizedialogSeekBar">false</item>
-    <item type="id" name="downloadDropboxFolder">false</item>
-    <item type="id" name="downloadDropboxList">false</item>
-    <item type="id" name="downloadDropboxLocation">false</item>
-    <item type="id" name="downloadDropboxProgress">false</item>
-    <item type="id" name="downloaddropboxEntryImage">false</item>
-    <item type="id" name="downloaddropboxEntryName">false</item>
-    <item type="id" name="editorAdView">false</item>
-    <item type="id" name="editorCodeEditor">false</item>
-    <item type="id" name="editorHeaderDirectoryName">false</item>
-    <item type="id" name="editorHeaderFileIcon">false</item>
-    <item type="id" name="editorHeaderFileInfo">false</item>
-    <item type="id" name="editorHeaderFileInfoInner">false</item>
-    <item type="id" name="editorHeaderFileName">false</item>
-    <item type="id" name="editorHeaderLearnButton">false</item>
-    <item type="id" name="editorHeaderLearnErrorText">false</item>
-    <item type="id" name="editorHeaderLearnErrorTitle">false</item>
-    <item type="id" name="editorHeaderLearnHeader">false</item>
-    <item type="id" name="editorHeaderLearnNewLayout">false</item>
-    <item type="id" name="editorHeaderLearnProgress">false</item>
-    <item type="id" name="editorHeaderLearnTask">false</item>
-    <item type="id" name="editorHeaderLearnTaskText">false</item>
-    <item type="id" name="editorHeaderLearnTaskTitle">false</item>
-    <item type="id" name="editorMenuChooseColor">false</item>
-    <item type="id" name="editorMenuClose">false</item>
-    <item type="id" name="editorMenuCode">false</item>
-    <item type="id" name="editorMenuComment">false</item>
-    <item type="id" name="editorMenuConfigureCodeStyle">false</item>
-    <item type="id" name="editorMenuCopy">false</item>
-    <item type="id" name="editorMenuCreateConstructor">false</item>
-    <item type="id" name="editorMenuCreateSetters">false</item>
-    <item type="id" name="editorMenuCut">false</item>
-    <item type="id" name="editorMenuExpandSelection">false</item>
-    <item type="id" name="editorMenuExtractMethod">false</item>
-    <item type="id" name="editorMenuExtractResources">false</item>
-    <item type="id" name="editorMenuFindExtendedUsages">false</item>
-    <item type="id" name="editorMenuFindTextually">false</item>
-    <item type="id" name="editorMenuFindUsage">false</item>
-    <item type="id" name="editorMenuFix">false</item>
-    <item type="id" name="editorMenuFix0">false</item>
-    <item type="id" name="editorMenuFix1">false</item>
-    <item type="id" name="editorMenuFix2">false</item>
-    <item type="id" name="editorMenuFix3">false</item>
-    <item type="id" name="editorMenuFix4">false</item>
-    <item type="id" name="editorMenuFix5">false</item>
-    <item type="id" name="editorMenuFormat">false</item>
-    <item type="id" name="editorMenuFormatCode">false</item>
-    <item type="id" name="editorMenuGotoDefinition">false</item>
-    <item type="id" name="editorMenuHelp">false</item>
-    <item type="id" name="editorMenuInlineVariable">false</item>
-    <item type="id" name="editorMenuIntroduceVariable">false</item>
-    <item type="id" name="editorMenuLearnCodeStyle">false</item>
-    <item type="id" name="editorMenuNavigate">false</item>
-    <item type="id" name="editorMenuOpenKeyboard">false</item>
-    <item type="id" name="editorMenuOrganizeImports">false</item>
-    <item type="id" name="editorMenuPaste">false</item>
-    <item type="id" name="editorMenuPreview">false</item>
-    <item type="id" name="editorMenuRefactor">false</item>
-    <item type="id" name="editorMenuRename">false</item>
-    <item type="id" name="editorMenuReplace">false</item>
-    <item type="id" name="editorMenuSurroundWithTryCatch">false</item>
-    <item type="id" name="editorMenuToggleBreakpoint">false</item>
-    <item type="id" name="editorMenuUnComment">false</item>
-    <item type="id" name="editorScrollView">false</item>
-    <item type="id" name="end_padder">false</item>
-    <item type="id" name="errorPopupText">false</item>
-    <item type="id" name="errorbrowserEntryError">false</item>
-    <item type="id" name="errorbrowserEntryFile">false</item>
-    <item type="id" name="errorbrowserEntryFileImage">false</item>
-    <item type="id" name="errorbrowserEntryFileName">false</item>
-    <item type="id" name="errorbrowserEntryImage">false</item>
-    <item type="id" name="errorbrowserEntryMessage">false</item>
-    <item type="id" name="errorbrowserErrorList">false</item>
-    <item type="id" name="errorsViewContainer">false</item>
-    <item type="id" name="errorsViewIcon">false</item>
-    <item type="id" name="errorsViewLabel">false</item>
-    <item type="id" name="exportapkFile">false</item>
-    <item type="id" name="exportapkKeystoreFile">false</item>
-    <item type="id" name="filebrowserEntryFileImage">false</item>
-    <item type="id" name="filebrowserEntryName">false</item>
-    <item type="id" name="filebrowserFileList">false</item>
-    <item type="id" name="filebrowserMenuAddLibrary">false</item>
-    <item type="id" name="filebrowserMenuCopyPath">false</item>
-    <item type="id" name="filebrowserMenuDelete">false</item>
-    <item type="id" name="filebrowserMenuGitCloneRepository">false</item>
-    <item type="id" name="filebrowserMenuNewDir">false</item>
-    <item type="id" name="filebrowserMenuNewFile">false</item>
-    <item type="id" name="filebrowserMenuNewItem">false</item>
-    <item type="id" name="filebrowserMenuNewProject">false</item>
-    <item type="id" name="filebrowserMenuRemoveLibrary">false</item>
-    <item type="id" name="filebrowserMenuRename">false</item>
-    <item type="id" name="filebrowserMenuSetAndroidJar">false</item>
-    <item type="id" name="filebrowserShowCurrent">false</item>
-    <item type="id" name="filebrowserShowProjects">false</item>
-    <item type="id" name="filetabMenuCloseAll">false</item>
-    <item type="id" name="filetabMenuCloseOthers">false</item>
-    <item type="id" name="gitMenuBranch">false</item>
-    <item type="id" name="gitMenuBranches">false</item>
-    <item type="id" name="gitMenuCheckout">false</item>
-    <item type="id" name="gitMenuCommit">false</item>
-    <item type="id" name="gitMenuDeleteBranch">false</item>
-    <item type="id" name="gitMenuMergeBranch">false</item>
-    <item type="id" name="gitMenuPull">false</item>
-    <item type="id" name="gitMenuPush">false</item>
-    <item type="id" name="gitclonerepositoryDirectoryName">false</item>
-    <item type="id" name="gitclonerepositoryLocation">false</item>
-    <item type="id" name="gitclonerepositoryUrl">false</item>
-    <item type="id" name="gitcommitdatamessage">false</item>
-    <item type="id" name="gotobrowserBackground">false</item>
-    <item type="id" name="gotobrowserEntryContainerName">false</item>
-    <item type="id" name="gotobrowserEntryImage">false</item>
-    <item type="id" name="gotobrowserEntryName">false</item>
-    <item type="id" name="gotobrowserHelpButton">false</item>
-    <item type="id" name="gotobrowserMessage">false</item>
-    <item type="id" name="gotobrowserProgress">false</item>
-    <item type="id" name="gotobrowserSearchBox">false</item>
-    <item type="id" name="gotobrowserSwitch">false</item>
-    <item type="id" name="gotobrowserSymbolList">false</item>
-    <item type="id" name="helpMenuDownload">false</item>
-    <item type="id" name="helpViewFrame">false</item>
-    <item type="id" name="helpViewWebView">false</item>
-    <item type="id" name="icon">false</item>
-    <item type="id" name="icon_group">false</item>
-    <item type="id" name="info">false</item>
-    <item type="id" name="javaconsoleMenuCopy">false</item>
-    <item type="id" name="keybindingsEntryBinding">false</item>
-    <item type="id" name="keybindingsEntryName">false</item>
-    <item type="id" name="keybindingsList">false</item>
-    <item type="id" name="keybindingsMenuDefault">false</item>
-    <item type="id" name="line1">false</item>
-    <item type="id" name="line3">false</item>
-    <item type="id" name="logcatConsole">false</item>
-    <item type="id" name="logcatHeaderMenuButton">false</item>
-    <item type="id" name="logcatHeaderText">false</item>
-    <item type="id" name="logcatMenuClear">false</item>
-    <item type="id" name="logcatMenuClearFilter">false</item>
-    <item type="id" name="logcatMenuCopy">false</item>
-    <item type="id" name="logcatMenuFilterByPrio">false</item>
-    <item type="id" name="logcatMenuFilterByProcess">false</item>
-    <item type="id" name="logcatMenuFilterByTag">false</item>
-    <item type="id" name="logcatMenuFilterCurrent">false</item>
-    <item type="id" name="logcatMenuPause">false</item>
-    <item type="id" name="logcatMenuResume">false</item>
-    <item type="id" name="logcatScrollView">false</item>
-    <item type="id" name="mainActionBarContainerNoTabs">false</item>
-    <item type="id" name="mainActionBarNoTabs">false</item>
-    <item type="id" name="mainActionBarPopupAnchor">false</item>
-    <item type="id" name="mainBrowserPager">false</item>
-    <item type="id" name="mainCodeEmptyView">false</item>
-    <item type="id" name="mainCodePageView">false</item>
-    <item type="id" name="mainErrorProgress">false</item>
-    <item type="id" name="mainFrame">false</item>
-    <item type="id" name="mainMasterButton">false</item>
-    <item type="id" name="mainMenuBrowser">false</item>
-    <item type="id" name="mainMenuCloseProject">false</item>
-    <item type="id" name="mainMenuCommunity">false</item>
-    <item type="id" name="mainMenuEditMode">false</item>
-    <item type="id" name="mainMenuErrorsView">false</item>
-    <item type="id" name="mainMenuExit">false</item>
-    <item type="id" name="mainMenuExpertMode">false</item>
-    <item type="id" name="mainMenuFind">false</item>
-    <item type="id" name="mainMenuForward">false</item>
-    <item type="id" name="mainMenuGoPremium">false</item>
-    <item type="id" name="mainMenuGoto">false</item>
-    <item type="id" name="mainMenuGotoLine">false</item>
-    <item type="id" name="mainMenuGotoLineWidget">false</item>
-    <item type="id" name="mainMenuLessonRestart">false</item>
-    <item type="id" name="mainMenuMore">false</item>
-    <item type="id" name="mainMenuNavigateMode">false</item>
-    <item type="id" name="mainMenuOpenDebugBrowser">false</item>
-    <item type="id" name="mainMenuOpenErrorBrowser">false</item>
-    <item type="id" name="mainMenuOpenFileBrowser">false</item>
-    <item type="id" name="mainMenuOpenLogCatBrowser">false</item>
-    <item type="id" name="mainMenuOpenSearchBrowser">false</item>
-    <item type="id" name="mainMenuPreview">false</item>
-    <item type="id" name="mainMenuProject">false</item>
-    <item type="id" name="mainMenuPublishProject">false</item>
-    <item type="id" name="mainMenuRebuild">false</item>
-    <item type="id" name="mainMenuRedo">false</item>
-    <item type="id" name="mainMenuRun">false</item>
-    <item type="id" name="mainMenuSave">false</item>
-    <item type="id" name="mainMenuSearch">false</item>
-    <item type="id" name="mainMenuSearchInProject">false</item>
-    <item type="id" name="mainMenuSearchWidget">false</item>
-    <item type="id" name="mainMenuSelectBuildVariant">false</item>
-    <item type="id" name="mainMenuSettings">false</item>
-    <item type="id" name="mainMenuShowOpenFiles">false</item>
-    <item type="id" name="mainMenuStepIn">false</item>
-    <item type="id" name="mainMenuStepOut">false</item>
-    <item type="id" name="mainMenuStepOver">false</item>
-    <item type="id" name="mainMenuStopDebugging">false</item>
-    <item type="id" name="mainMenuTrainerMode">false</item>
-    <item type="id" name="mainMenuTrainerQuestion">false</item>
-    <item type="id" name="mainMenuUndo">false</item>
-    <item type="id" name="mainNoOpenFilesView">false</item>
-    <item type="id" name="mainPopupAnchorContainer">false</item>
-    <item type="id" name="mainQuickKeyBarContainer">false</item>
-    <item type="id" name="mainSearchBarNoTabs">false</item>
-    <item type="id" name="mainSearchBox">false</item>
-    <item type="id" name="mainSearchLabel">false</item>
-    <item type="id" name="mainSplitView">false</item>
-    <item type="id" name="media_actions">false</item>
-    <item type="id" name="modifiedFileChecked">false</item>
-    <item type="id" name="modifiedFileImage">false</item>
-    <item type="id" name="modifiedFileName">false</item>
-    <item type="id" name="modifiedFilesList">false</item>
-    <item type="id" name="notification_background">false</item>
-    <item type="id" name="notification_main_column">false</item>
-    <item type="id" name="notification_main_column_container">false</item>
-    <item type="id" name="outputConsole">false</item>
-    <item type="id" name="outputFrame">false</item>
-    <item type="id" name="outputHeaderButton">false</item>
-    <item type="id" name="outputHeaderLearnMessage">false</item>
-    <item type="id" name="outputHeaderLearnTask">false</item>
-    <item type="id" name="outputHeaderLearnTitle">false</item>
-    <item type="id" name="progressdialogLabel">false</item>
-    <item type="id" name="progressdialogProgress">false</item>
-    <item type="id" name="projecttypeEntryDescription">false</item>
-    <item type="id" name="projecttypeEntryImage">false</item>
-    <item type="id" name="projecttypeEntryLabel">false</item>
-    <item type="id" name="promoDialogLayout">false</item>
-    <item type="id" name="promoListEntryLayout">false</item>
-    <item type="id" name="promoListEntryLogo">false</item>
-    <item type="id" name="promoListEntryText1">false</item>
-    <item type="id" name="promoListEntryText2">false</item>
-    <item type="id" name="quickKeyBar">false</item>
-    <item type="id" name="quickKeyBarButton">false</item>
-    <item type="id" name="quickKeyBarCloseButton">false</item>
-    <item type="id" name="quickKeyBarKeysContainer">false</item>
-    <item type="id" name="quickKeyBarList">false</item>
-    <item type="id" name="quickKeyBarOpenButton">false</item>
-    <item type="id" name="quickKeyBarOpenButtonContainer">false</item>
-    <item type="id" name="replaceFindText">false</item>
-    <item type="id" name="replaceScope">false</item>
-    <item type="id" name="replaceWithText">false</item>
-    <item type="id" name="right_icon">false</item>
-    <item type="id" name="right_side">false</item>
-    <item type="id" name="searchbrowserCode">false</item>
-    <item type="id" name="searchbrowserCodeLine">false</item>
-    <item type="id" name="searchbrowserEntryFileImage">false</item>
-    <item type="id" name="searchbrowserEntryFileName">false</item>
-    <item type="id" name="searchbrowserFile">false</item>
-    <item type="id" name="searchbrowserList">false</item>
-    <item type="id" name="searchbrowserProgress">false</item>
-    <item type="id" name="searchbrowserResults">false</item>
-    <item type="id" name="shareDialogEntryImage">false</item>
-    <item type="id" name="shareDialogEntryText">false</item>
-    <item type="id" name="shareDialogList">false</item>
-    <item type="id" name="shareDialogMessage">false</item>
-    <item type="id" name="shopExpertButtonsLayout">false</item>
-    <item type="id" name="shopExpertFeatureTable">false</item>
-    <item type="id" name="shopExpertFeatureTableNoAds">false</item>
-    <item type="id" name="shopExpertFeatureTableUpgrade">false</item>
-    <item type="id" name="shopExpertFeatureTableUpgradeCurrentDebuggerImage">false</item>
-    <item type="id" name="shopExpertFeatureTableUpgradeCurrentPremiumImage">false</item>
-    <item type="id" name="shopExpertFeatureTableUpgradeCurrentUIDesignerImage">false</item>
-    <item type="id" name="shopExpertFeatureTableWeb">false</item>
-    <item type="id" name="shopExpertPopupBuyButton">false</item>
-    <item type="id" name="shopExpertPopupEntrySpecialImage">false</item>
-    <item type="id" name="shopExpertPopupErrorMessage">false</item>
-    <item type="id" name="shopExpertPopupFreeButton">false</item>
-    <item type="id" name="shopExpertPopupTitle">false</item>
-    <item type="id" name="shopExpertProgressBar">false</item>
-    <item type="id" name="shopLearningButtonsLayout">false</item>
-    <item type="id" name="shopLearningFeatureTable">false</item>
-    <item type="id" name="shopLearningFeatureTableWeb">false</item>
-    <item type="id" name="shopLearningFreeButton">false</item>
-    <item type="id" name="shopLearningMonthlyButton">false</item>
-    <item type="id" name="shopLearningMonthlyDescription">false</item>
-    <item type="id" name="shopLearningMonthlySpecial">false</item>
-    <item type="id" name="shopLearningMonthlyTitle">false</item>
-    <item type="id" name="shopLearningPopupErrorMessage">false</item>
-    <item type="id" name="shopLearningPopupTitle">false</item>
-    <item type="id" name="shopLearningProgressBar">false</item>
-    <item type="id" name="shopLearningSpecialYearly">false</item>
-    <item type="id" name="shopLearningYearlyButton">false</item>
-    <item type="id" name="shopLearningYearlyDescription">false</item>
-    <item type="id" name="shopLearningYearlyTitle">false</item>
-    <item type="id" name="shopPopupEntries">false</item>
-    <item type="id" name="shopPopupEntryButton">false</item>
-    <item type="id" name="shopPopupEntryDescription">false</item>
-    <item type="id" name="shopPopupEntryPrice">false</item>
-    <item type="id" name="shopPopupEntrySpecialImage">false</item>
-    <item type="id" name="shopPopupEntryText">false</item>
-    <item type="id" name="shopPopupErrorMessage">false</item>
-    <item type="id" name="shopPopupHelpMessage">false</item>
-    <item type="id" name="shopPopupTitle">false</item>
-    <item type="id" name="shoppopupHelpButton">false</item>
-    <item type="id" name="status_bar_latest_event_content">false</item>
-    <item type="id" name="text">false</item>
-    <item type="id" name="text2">false</item>
-    <item type="id" name="time">false</item>
-    <item type="id" name="title">false</item>
-    <item type="id" name="trainerAppActivityLayout">false</item>
-    <item type="id" name="trainerContent">false</item>
-    <item type="id" name="trainerCourseLinearLayout1">false</item>
-    <item type="id" name="trainerCourseListEntryLayout">false</item>
-    <item type="id" name="trainerCourseListEntryLogo">false</item>
-    <item type="id" name="trainerCourseListHeaderText">false</item>
-    <item type="id" name="trainerDialogLayout">false</item>
-    <item type="id" name="trainerDrawer">false</item>
-    <item type="id" name="trainerLinearLayout2">false</item>
-    <item type="id" name="trainerMenuSoundOff">false</item>
-    <item type="id" name="trainerMenuSoundOn">false</item>
-    <item type="id" name="trainerMenuVoiceOff">false</item>
-    <item type="id" name="trainerMenuVoiceOn">false</item>
-    <item type="id" name="trainerPagerTitleStrip">false</item>
-    <item type="id" name="trainerSideDrawer">false</item>
-    <item type="id" name="trainerToast">false</item>
-    <item type="id" name="trainerToastButton">false</item>
-    <item type="id" name="trainerToastText">false</item>
-    <item type="id" name="trainerToastTitle">false</item>
-    <item type="id" name="trainerViewPager">false</item>
-    <item type="id" name="trainerlistentryBox">false</item>
-    <item type="id" name="trainerlistentryNewImage">false</item>
-    <item type="id" name="trainerlistentryRatingTextView">false</item>
-    <item type="id" name="trainerlistentryTextView">false</item>
-    <item type="id" name="trainerlistentryTitleView">false</item>
-    <item type="id" name="webpreviewContainer">false</item>
-    <item type="id" name="webpreviewHeaderButton">false</item>
-    <item type="id" name="webpreviewHeaderLearnMessage">false</item>
-    <item type="id" name="webpreviewHeaderLearnTask">false</item>
-    <item type="id" name="webpreviewHeaderLearnTaskInner">false</item>
-    <item type="id" name="webpreviewHeaderLearnTitle">false</item>
-    <item type="id" name="webpreviewMasterButton">false</item>
-    <item type="id" name="whatsNewItemHeader">false</item>
-    <item type="id" name="whatsNewItemIcon">false</item>
-    <item type="id" name="whatsNewItemSubTitle">false</item>
-    <item type="id" name="whatsNewItemText">false</item>
-    <item type="id" name="whatsNewItemTitle">false</item>
-    <item type="id" name="widgetlistGroupName">false</item>
-    <item type="id" name="widgetlistHelp">false</item>
-    <item type="id" name="widgetlistName">false</item>
-    <item type="id" name="widgetlistPreview">false</item>
-    <item type="id" name="widgetmenuEntryImage">false</item>
-    <item type="id" name="widgetmenuEntryName">false</item>
-    <item type="id" name="widgetmenuHelpButton">false</item>
+    <item type="id" name="aboutWebView" />
+    <item type="id" name="action0" />
+    <item type="id" name="action_container" />
+    <item type="id" name="action_divider" />
+    <item type="id" name="action_image" />
+    <item type="id" name="action_text" />
+    <item type="id" name="actions" />
+    <item type="id" name="appwizardContentContainer" />
+    <item type="id" name="appwizardEditButton" />
+    <item type="id" name="appwizardEditButtonLayout" />
+    <item type="id" name="appwizardModeButton" />
+    <item type="id" name="appwizardRedoButton" />
+    <item type="id" name="appwizardSectionContainer" />
+    <item type="id" name="appwizardSectionTextView" />
+    <item type="id" name="appwizardUndoButton" />
+    <item type="id" name="browserHeaderIcon" />
+    <item type="id" name="browserHeaderLabel" />
+    <item type="id" name="browserHeaderMenuButton" />
+    <item type="id" name="cancel_action" />
+    <item type="id" name="chronometer" />
+    <item type="id" name="colorpickerColorPickerView" />
+    <item type="id" name="colorpickerEditText" />
+    <item type="id" name="commitDiffView" />
+    <item type="id" name="commitDifferencesScrollView" />
+    <item type="id" name="commitFrame" />
+    <item type="id" name="commitHeaderDirectoryName" />
+    <item type="id" name="commitHeaderFileIcon" />
+    <item type="id" name="commitHeaderFileName" />
+    <item type="id" name="commitMenuCommit" />
+    <item type="id" name="commitMenuDiscard" />
+    <item type="id" name="commitSplitView" />
+    <item type="id" name="completionEntryImage" />
+    <item type="id" name="completionEntryName" />
+    <item type="id" name="completionHelpButton" />
+    <item type="id" name="completionList" />
+    <item type="id" name="createkeystoreAlias" />
+    <item type="id" name="createkeystoreCountry" />
+    <item type="id" name="createkeystoreLocation" />
+    <item type="id" name="createkeystoreName" />
+    <item type="id" name="createkeystoreOrganization" />
+    <item type="id" name="createkeystoreOrganizationalUnit" />
+    <item type="id" name="createkeystorePassword" />
+    <item type="id" name="createkeystorePassword2" />
+    <item type="id" name="createkeystorePath" />
+    <item type="id" name="createkeystoreState" />
+    <item type="id" name="createkeystoreValidity" />
+    <item type="id" name="createprojectLocation" />
+    <item type="id" name="createprojectName" />
+    <item type="id" name="createprojectPackage" />
+    <item type="id" name="createprojectPackageLabel" />
+    <item type="id" name="createprojectType" />
+    <item type="id" name="debuggerEntryImage" />
+    <item type="id" name="debuggerEntryList" />
+    <item type="id" name="debuggerEntryName" />
+    <item type="id" name="designerContent" />
+    <item type="id" name="designerDrawer" />
+    <item type="id" name="designerFrame" />
+    <item type="id" name="designerHeaderLearnButton" />
+    <item type="id" name="designerHeaderLearnTask" />
+    <item type="id" name="designerHeaderLearnTaskInner" />
+    <item type="id" name="designerHeaderLearnTaskText" />
+    <item type="id" name="designerHeaderLearnTaskTitle" />
+    <item type="id" name="designerMenuCopy" />
+    <item type="id" name="designerMenuHideBorders" />
+    <item type="id" name="designerMenuPaste" />
+    <item type="id" name="designerMenuRedo" />
+    <item type="id" name="designerMenuRun" />
+    <item type="id" name="designerMenuShare" />
+    <item type="id" name="designerMenuShowBorders" />
+    <item type="id" name="designerMenuUndo" />
+    <item type="id" name="designerViewList" />
+    <item type="id" name="designerViewlistEntryImage" />
+    <item type="id" name="designerViewlistEntryName" />
+    <item type="id" name="designerViewlistFileImage" />
+    <item type="id" name="designerViewlistentryDelete" />
+    <item type="id" name="designerViewlistentryFileLayout" />
+    <item type="id" name="designerViewlistentryFileName" />
+    <item type="id" name="designerViewlistentryFileRadioButton" />
+    <item type="id" name="designerViewlistentryViewLayout" />
+    <item type="id" name="designersizedialogEditText" />
+    <item type="id" name="designersizedialogMinusButton" />
+    <item type="id" name="designersizedialogPlusButton" />
+    <item type="id" name="designersizedialogSeekBar" />
+    <item type="id" name="downloadDropboxFolder" />
+    <item type="id" name="downloadDropboxList" />
+    <item type="id" name="downloadDropboxLocation" />
+    <item type="id" name="downloadDropboxProgress" />
+    <item type="id" name="downloaddropboxEntryImage" />
+    <item type="id" name="downloaddropboxEntryName" />
+    <item type="id" name="editorAdView" />
+    <item type="id" name="editorCodeEditor" />
+    <item type="id" name="editorHeaderDirectoryName" />
+    <item type="id" name="editorHeaderFileIcon" />
+    <item type="id" name="editorHeaderFileInfo" />
+    <item type="id" name="editorHeaderFileInfoInner" />
+    <item type="id" name="editorHeaderFileName" />
+    <item type="id" name="editorHeaderLearnButton" />
+    <item type="id" name="editorHeaderLearnErrorText" />
+    <item type="id" name="editorHeaderLearnErrorTitle" />
+    <item type="id" name="editorHeaderLearnHeader" />
+    <item type="id" name="editorHeaderLearnNewLayout" />
+    <item type="id" name="editorHeaderLearnProgress" />
+    <item type="id" name="editorHeaderLearnTask" />
+    <item type="id" name="editorHeaderLearnTaskText" />
+    <item type="id" name="editorHeaderLearnTaskTitle" />
+    <item type="id" name="editorMenuChooseColor" />
+    <item type="id" name="editorMenuClose" />
+    <item type="id" name="editorMenuCode" />
+    <item type="id" name="editorMenuComment" />
+    <item type="id" name="editorMenuConfigureCodeStyle" />
+    <item type="id" name="editorMenuCopy" />
+    <item type="id" name="editorMenuCreateConstructor" />
+    <item type="id" name="editorMenuCreateSetters" />
+    <item type="id" name="editorMenuCut" />
+    <item type="id" name="editorMenuExpandSelection" />
+    <item type="id" name="editorMenuExtractMethod" />
+    <item type="id" name="editorMenuExtractResources" />
+    <item type="id" name="editorMenuFindExtendedUsages" />
+    <item type="id" name="editorMenuFindTextually" />
+    <item type="id" name="editorMenuFindUsage" />
+    <item type="id" name="editorMenuFix" />
+    <item type="id" name="editorMenuFix0" />
+    <item type="id" name="editorMenuFix1" />
+    <item type="id" name="editorMenuFix2" />
+    <item type="id" name="editorMenuFix3" />
+    <item type="id" name="editorMenuFix4" />
+    <item type="id" name="editorMenuFix5" />
+    <item type="id" name="editorMenuFormat" />
+    <item type="id" name="editorMenuFormatCode" />
+    <item type="id" name="editorMenuGotoDefinition" />
+    <item type="id" name="editorMenuHelp" />
+    <item type="id" name="editorMenuInlineVariable" />
+    <item type="id" name="editorMenuIntroduceVariable" />
+    <item type="id" name="editorMenuLearnCodeStyle" />
+    <item type="id" name="editorMenuNavigate" />
+    <item type="id" name="editorMenuOpenKeyboard" />
+    <item type="id" name="editorMenuOrganizeImports" />
+    <item type="id" name="editorMenuPaste" />
+    <item type="id" name="editorMenuPreview" />
+    <item type="id" name="editorMenuRefactor" />
+    <item type="id" name="editorMenuRename" />
+    <item type="id" name="editorMenuReplace" />
+    <item type="id" name="editorMenuSurroundWithTryCatch" />
+    <item type="id" name="editorMenuToggleBreakpoint" />
+    <item type="id" name="editorMenuUnComment" />
+    <item type="id" name="editorScrollView" />
+    <item type="id" name="end_padder" />
+    <item type="id" name="errorPopupText" />
+    <item type="id" name="errorbrowserEntryError" />
+    <item type="id" name="errorbrowserEntryFile" />
+    <item type="id" name="errorbrowserEntryFileImage" />
+    <item type="id" name="errorbrowserEntryFileName" />
+    <item type="id" name="errorbrowserEntryImage" />
+    <item type="id" name="errorbrowserEntryMessage" />
+    <item type="id" name="errorbrowserErrorList" />
+    <item type="id" name="errorsViewContainer" />
+    <item type="id" name="errorsViewIcon" />
+    <item type="id" name="errorsViewLabel" />
+    <item type="id" name="exportapkFile" />
+    <item type="id" name="exportapkKeystoreFile" />
+    <item type="id" name="filebrowserEntryFileImage" />
+    <item type="id" name="filebrowserEntryName" />
+    <item type="id" name="filebrowserFileList" />
+    <item type="id" name="filebrowserMenuAddLibrary" />
+    <item type="id" name="filebrowserMenuCopyPath" />
+    <item type="id" name="filebrowserMenuDelete" />
+    <item type="id" name="filebrowserMenuGitCloneRepository" />
+    <item type="id" name="filebrowserMenuNewDir" />
+    <item type="id" name="filebrowserMenuNewFile" />
+    <item type="id" name="filebrowserMenuNewItem" />
+    <item type="id" name="filebrowserMenuNewProject" />
+    <item type="id" name="filebrowserMenuRemoveLibrary" />
+    <item type="id" name="filebrowserMenuRename" />
+    <item type="id" name="filebrowserMenuSetAndroidJar" />
+    <item type="id" name="filebrowserShowCurrent" />
+    <item type="id" name="filebrowserShowProjects" />
+    <item type="id" name="filetabMenuCloseAll" />
+    <item type="id" name="filetabMenuCloseOthers" />
+    <item type="id" name="gitMenuBranch" />
+    <item type="id" name="gitMenuBranches" />
+    <item type="id" name="gitMenuCheckout" />
+    <item type="id" name="gitMenuCommit" />
+    <item type="id" name="gitMenuDeleteBranch" />
+    <item type="id" name="gitMenuMergeBranch" />
+    <item type="id" name="gitMenuPull" />
+    <item type="id" name="gitMenuPush" />
+    <item type="id" name="gitclonerepositoryDirectoryName" />
+    <item type="id" name="gitclonerepositoryLocation" />
+    <item type="id" name="gitclonerepositoryUrl" />
+    <item type="id" name="gitcommitdatamessage" />
+    <item type="id" name="gotobrowserBackground" />
+    <item type="id" name="gotobrowserEntryContainerName" />
+    <item type="id" name="gotobrowserEntryImage" />
+    <item type="id" name="gotobrowserEntryName" />
+    <item type="id" name="gotobrowserHelpButton" />
+    <item type="id" name="gotobrowserMessage" />
+    <item type="id" name="gotobrowserProgress" />
+    <item type="id" name="gotobrowserSearchBox" />
+    <item type="id" name="gotobrowserSwitch" />
+    <item type="id" name="gotobrowserSymbolList" />
+    <item type="id" name="helpMenuDownload" />
+    <item type="id" name="helpViewFrame" />
+    <item type="id" name="helpViewWebView" />
+    <item type="id" name="icon" />
+    <item type="id" name="icon_group" />
+    <item type="id" name="info" />
+    <item type="id" name="javaconsoleMenuCopy" />
+    <item type="id" name="keybindingsEntryBinding" />
+    <item type="id" name="keybindingsEntryName" />
+    <item type="id" name="keybindingsList" />
+    <item type="id" name="keybindingsMenuDefault" />
+    <item type="id" name="line1" />
+    <item type="id" name="line3" />
+    <item type="id" name="logcatConsole" />
+    <item type="id" name="logcatHeaderMenuButton" />
+    <item type="id" name="logcatHeaderText" />
+    <item type="id" name="logcatMenuClear" />
+    <item type="id" name="logcatMenuClearFilter" />
+    <item type="id" name="logcatMenuCopy" />
+    <item type="id" name="logcatMenuFilterByPrio" />
+    <item type="id" name="logcatMenuFilterByProcess" />
+    <item type="id" name="logcatMenuFilterByTag" />
+    <item type="id" name="logcatMenuFilterCurrent" />
+    <item type="id" name="logcatMenuPause" />
+    <item type="id" name="logcatMenuResume" />
+    <item type="id" name="logcatScrollView" />
+    <item type="id" name="mainActionBarContainerNoTabs" />
+    <item type="id" name="mainActionBarNoTabs" />
+    <item type="id" name="mainActionBarPopupAnchor" />
+    <item type="id" name="mainBrowserPager" />
+    <item type="id" name="mainCodeEmptyView" />
+    <item type="id" name="mainCodePageView" />
+    <item type="id" name="mainErrorProgress" />
+    <item type="id" name="mainFrame" />
+    <item type="id" name="mainMasterButton" />
+    <item type="id" name="mainMenuBrowser" />
+    <item type="id" name="mainMenuCloseProject" />
+    <item type="id" name="mainMenuCommunity" />
+    <item type="id" name="mainMenuEditMode" />
+    <item type="id" name="mainMenuErrorsView" />
+    <item type="id" name="mainMenuExit" />
+    <item type="id" name="mainMenuExpertMode" />
+    <item type="id" name="mainMenuFind" />
+    <item type="id" name="mainMenuForward" />
+    <item type="id" name="mainMenuGoPremium" />
+    <item type="id" name="mainMenuGoto" />
+    <item type="id" name="mainMenuGotoLine" />
+    <item type="id" name="mainMenuGotoLineWidget" />
+    <item type="id" name="mainMenuLessonRestart" />
+    <item type="id" name="mainMenuMore" />
+    <item type="id" name="mainMenuNavigateMode" />
+    <item type="id" name="mainMenuOpenDebugBrowser" />
+    <item type="id" name="mainMenuOpenErrorBrowser" />
+    <item type="id" name="mainMenuOpenFileBrowser" />
+    <item type="id" name="mainMenuOpenLogCatBrowser" />
+    <item type="id" name="mainMenuOpenSearchBrowser" />
+    <item type="id" name="mainMenuPreview" />
+    <item type="id" name="mainMenuProject" />
+    <item type="id" name="mainMenuPublishProject" />
+    <item type="id" name="mainMenuRebuild" />
+    <item type="id" name="mainMenuRedo" />
+    <item type="id" name="mainMenuRun" />
+    <item type="id" name="mainMenuSave" />
+    <item type="id" name="mainMenuSearch" />
+    <item type="id" name="mainMenuSearchInProject" />
+    <item type="id" name="mainMenuSearchWidget" />
+    <item type="id" name="mainMenuSelectBuildVariant" />
+    <item type="id" name="mainMenuSettings" />
+    <item type="id" name="mainMenuShowOpenFiles" />
+    <item type="id" name="mainMenuStepIn" />
+    <item type="id" name="mainMenuStepOut" />
+    <item type="id" name="mainMenuStepOver" />
+    <item type="id" name="mainMenuStopDebugging" />
+    <item type="id" name="mainMenuTrainerMode" />
+    <item type="id" name="mainMenuTrainerQuestion" />
+    <item type="id" name="mainMenuUndo" />
+    <item type="id" name="mainNoOpenFilesView" />
+    <item type="id" name="mainPopupAnchorContainer" />
+    <item type="id" name="mainQuickKeyBarContainer" />
+    <item type="id" name="mainSearchBarNoTabs" />
+    <item type="id" name="mainSearchBox" />
+    <item type="id" name="mainSearchLabel" />
+    <item type="id" name="mainSplitView" />
+    <item type="id" name="media_actions" />
+    <item type="id" name="modifiedFileChecked" />
+    <item type="id" name="modifiedFileImage" />
+    <item type="id" name="modifiedFileName" />
+    <item type="id" name="modifiedFilesList" />
+    <item type="id" name="notification_background" />
+    <item type="id" name="notification_main_column" />
+    <item type="id" name="notification_main_column_container" />
+    <item type="id" name="outputConsole" />
+    <item type="id" name="outputFrame" />
+    <item type="id" name="outputHeaderButton" />
+    <item type="id" name="outputHeaderLearnMessage" />
+    <item type="id" name="outputHeaderLearnTask" />
+    <item type="id" name="outputHeaderLearnTitle" />
+    <item type="id" name="progressdialogLabel" />
+    <item type="id" name="progressdialogProgress" />
+    <item type="id" name="projecttypeEntryDescription" />
+    <item type="id" name="projecttypeEntryImage" />
+    <item type="id" name="projecttypeEntryLabel" />
+    <item type="id" name="promoDialogLayout" />
+    <item type="id" name="promoListEntryLayout" />
+    <item type="id" name="promoListEntryLogo" />
+    <item type="id" name="promoListEntryText1" />
+    <item type="id" name="promoListEntryText2" />
+    <item type="id" name="quickKeyBar" />
+    <item type="id" name="quickKeyBarButton" />
+    <item type="id" name="quickKeyBarCloseButton" />
+    <item type="id" name="quickKeyBarKeysContainer" />
+    <item type="id" name="quickKeyBarList" />
+    <item type="id" name="quickKeyBarOpenButton" />
+    <item type="id" name="quickKeyBarOpenButtonContainer" />
+    <item type="id" name="replaceFindText" />
+    <item type="id" name="replaceScope" />
+    <item type="id" name="replaceWithText" />
+    <item type="id" name="right_icon" />
+    <item type="id" name="right_side" />
+    <item type="id" name="searchbrowserCode" />
+    <item type="id" name="searchbrowserCodeLine" />
+    <item type="id" name="searchbrowserEntryFileImage" />
+    <item type="id" name="searchbrowserEntryFileName" />
+    <item type="id" name="searchbrowserFile" />
+    <item type="id" name="searchbrowserList" />
+    <item type="id" name="searchbrowserProgress" />
+    <item type="id" name="searchbrowserResults" />
+    <item type="id" name="shareDialogEntryImage" />
+    <item type="id" name="shareDialogEntryText" />
+    <item type="id" name="shareDialogList" />
+    <item type="id" name="shareDialogMessage" />
+    <item type="id" name="shopExpertButtonsLayout" />
+    <item type="id" name="shopExpertFeatureTable" />
+    <item type="id" name="shopExpertFeatureTableNoAds" />
+    <item type="id" name="shopExpertFeatureTableUpgrade" />
+    <item type="id" name="shopExpertFeatureTableUpgradeCurrentDebuggerImage" />
+    <item type="id" name="shopExpertFeatureTableUpgradeCurrentPremiumImage" />
+    <item type="id" name="shopExpertFeatureTableUpgradeCurrentUIDesignerImage" />
+    <item type="id" name="shopExpertFeatureTableWeb" />
+    <item type="id" name="shopExpertPopupBuyButton" />
+    <item type="id" name="shopExpertPopupEntrySpecialImage" />
+    <item type="id" name="shopExpertPopupErrorMessage" />
+    <item type="id" name="shopExpertPopupFreeButton" />
+    <item type="id" name="shopExpertPopupTitle" />
+    <item type="id" name="shopExpertProgressBar" />
+    <item type="id" name="shopLearningButtonsLayout" />
+    <item type="id" name="shopLearningFeatureTable" />
+    <item type="id" name="shopLearningFeatureTableWeb" />
+    <item type="id" name="shopLearningFreeButton" />
+    <item type="id" name="shopLearningMonthlyButton" />
+    <item type="id" name="shopLearningMonthlyDescription" />
+    <item type="id" name="shopLearningMonthlySpecial" />
+    <item type="id" name="shopLearningMonthlyTitle" />
+    <item type="id" name="shopLearningPopupErrorMessage" />
+    <item type="id" name="shopLearningPopupTitle" />
+    <item type="id" name="shopLearningProgressBar" />
+    <item type="id" name="shopLearningSpecialYearly" />
+    <item type="id" name="shopLearningYearlyButton" />
+    <item type="id" name="shopLearningYearlyDescription" />
+    <item type="id" name="shopLearningYearlyTitle" />
+    <item type="id" name="shopPopupEntries" />
+    <item type="id" name="shopPopupEntryButton" />
+    <item type="id" name="shopPopupEntryDescription" />
+    <item type="id" name="shopPopupEntryPrice" />
+    <item type="id" name="shopPopupEntrySpecialImage" />
+    <item type="id" name="shopPopupEntryText" />
+    <item type="id" name="shopPopupErrorMessage" />
+    <item type="id" name="shopPopupHelpMessage" />
+    <item type="id" name="shopPopupTitle" />
+    <item type="id" name="shoppopupHelpButton" />
+    <item type="id" name="status_bar_latest_event_content" />
+    <item type="id" name="text" />
+    <item type="id" name="text2" />
+    <item type="id" name="time" />
+    <item type="id" name="title" />
+    <item type="id" name="trainerAppActivityLayout" />
+    <item type="id" name="trainerContent" />
+    <item type="id" name="trainerCourseLinearLayout1" />
+    <item type="id" name="trainerCourseListEntryLayout" />
+    <item type="id" name="trainerCourseListEntryLogo" />
+    <item type="id" name="trainerCourseListHeaderText" />
+    <item type="id" name="trainerDialogLayout" />
+    <item type="id" name="trainerDrawer" />
+    <item type="id" name="trainerLinearLayout2" />
+    <item type="id" name="trainerMenuSoundOff" />
+    <item type="id" name="trainerMenuSoundOn" />
+    <item type="id" name="trainerMenuVoiceOff" />
+    <item type="id" name="trainerMenuVoiceOn" />
+    <item type="id" name="trainerPagerTitleStrip" />
+    <item type="id" name="trainerSideDrawer" />
+    <item type="id" name="trainerToast" />
+    <item type="id" name="trainerToastButton" />
+    <item type="id" name="trainerToastText" />
+    <item type="id" name="trainerToastTitle" />
+    <item type="id" name="trainerViewPager" />
+    <item type="id" name="trainerlistentryBox" />
+    <item type="id" name="trainerlistentryNewImage" />
+    <item type="id" name="trainerlistentryRatingTextView" />
+    <item type="id" name="trainerlistentryTextView" />
+    <item type="id" name="trainerlistentryTitleView" />
+    <item type="id" name="webpreviewContainer" />
+    <item type="id" name="webpreviewHeaderButton" />
+    <item type="id" name="webpreviewHeaderLearnMessage" />
+    <item type="id" name="webpreviewHeaderLearnTask" />
+    <item type="id" name="webpreviewHeaderLearnTaskInner" />
+    <item type="id" name="webpreviewHeaderLearnTitle" />
+    <item type="id" name="webpreviewMasterButton" />
+    <item type="id" name="whatsNewItemHeader" />
+    <item type="id" name="whatsNewItemIcon" />
+    <item type="id" name="whatsNewItemSubTitle" />
+    <item type="id" name="whatsNewItemText" />
+    <item type="id" name="whatsNewItemTitle" />
+    <item type="id" name="widgetlistGroupName" />
+    <item type="id" name="widgetlistHelp" />
+    <item type="id" name="widgetlistName" />
+    <item type="id" name="widgetlistPreview" />
+    <item type="id" name="widgetmenuEntryImage" />
+    <item type="id" name="widgetmenuEntryName" />
+    <item type="id" name="widgetmenuHelpButton" />
     <item type="id" name="color_picker_view" />
     <item type="id" name="hex_val" />
     <item type="id" name="new_color_panel" />
