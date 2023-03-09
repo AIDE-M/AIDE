@@ -1468,7 +1468,7 @@ com.aide.mob:anim/course_android_alert_dialogs_3_task = 0x7f0d00c0
 com.aide.mob:anim/course_android_alert_dialogs_4_task = 0x7f0d00c1
 com.aide.mob:anim/course_android_alert_dialogs_5_task = 0x7f0d00c2
 com.aide.mob:anim/course_android_alert_dialogs_6_fail_1 = 0x7f0d00c3
-com.aide.mob:anim/course_android_alert_dialogs_6_task = 0x7f0d00c4
+
 com.aide.mob:anim/course_android_alert_dialogs_7_fail_1 = 0x7f0d00c5
 com.aide.mob:anim/course_android_alert_dialogs_7_task = 0x7f0d00c6
 com.aide.mob:anim/course_android_alert_dialogs_8_fail_1 = 0x7f0d00c7
