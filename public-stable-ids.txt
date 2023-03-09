@@ -2299,7 +2299,7 @@ com.aide.mob:anim/course_java_data_types_4_fail_2 = 0x7f0d0408
 com.aide.mob:anim/course_java_data_types_4_success = 0x7f0d0409
 com.aide.mob:anim/course_java_data_types_4_task = 0x7f0d040a
 com.aide.mob:anim/course_java_data_types_5_fail_1 = 0x7f0d040b
-com.aide.mob:anim/course_java_data_types_5_fail_2 = 0x7f0d040c
+
 com.aide.mob:anim/course_java_data_types_5_success = 0x7f0d040d
 com.aide.mob:anim/course_java_data_types_5_task = 0x7f0d040e
 com.aide.mob:anim/course_java_data_types_6_fail_1 = 0x7f0d040f
