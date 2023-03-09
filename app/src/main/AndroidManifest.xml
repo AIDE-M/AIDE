@@ -52,7 +52,7 @@
         android:fullBackupOnly="true"
         android:fullBackupContent="@xml/aide_backup_rules"
         android:resizeableActivity="true"
-        android:requestLegacyExternalStorage="true">
+        >
         <activity
             android:theme="@style/ActivityActionbarThemeLight"
             android:name="com.aide.ui.MainActivity"
