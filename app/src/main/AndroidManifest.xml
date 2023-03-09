@@ -60,40 +60,14 @@
             android:screenOrientation="user"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
             android:banner="@drawable/banner">
-            <intent-filter>
-                <action
-                    android:name="android.intent.action.VIEW" />
-                <category
-                    android:name="android.intent.category.DEFAULT" />
-                <category
-                    android:name="android.intent.category.BROWSABLE" />
-                <data
-                    android:scheme="file" />
-                <data
-                    android:mimeType="*/*" />
-                <data
-                    android:pathPattern=".*\\.classpath" />
-                <data
-                    android:pathPattern=".*\\.java" />
-                <data
-                    android:pathPattern=".*\\.xml" />
-                <data
-                    android:pathPattern=".*\\.txt" />
-                <data
-                    android:host="*" />
-            </intent-filter>
+            
             <intent-filter>
                 <action
                     android:name="android.intent.action.MAIN" />
                 <category
                     android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <intent-filter>
-                <action
-                    android:name="android.intent.action.MAIN" />
-                <category
-                    android:name="android.intent.category.LEANBACK_LAUNCHER" />
-            </intent-filter>
+            
         </activity>
         <activity
             android:theme="@style/ActivityActionbarThemeLight"
