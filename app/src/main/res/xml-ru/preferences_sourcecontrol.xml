@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Git">
+        <EditTextPreference
+            android:title="Имя пользователя"
+            android:key="git_user_name"
+            android:summary="Полное имя"
+            android:dialogTitle="Введите полное имя:" />
+        <EditTextPreference
+            android:title="Email пользователя"
+            android:key="git_user_email"
+            android:summary="Email"
+            android:dialogTitle="Введите email:" />
+        <EditTextPreference
+            android:title=".ssh каталог"
+            android:key="git_dot_ssh_dir"
+            android:summary="Путь к каталогу OpenSSH-compatible .ssh"
+            android:dialogTitle="Введите путь к каталогу .ssh" />
+        <SwitchPreference
+            android:title="Сохранять информацию сеанса SSH"
+            android:key="git_keep_ssh_session_info"
+            android:summary="Сохранять информацию сеанса SSH, такую ​​как дешифрованный закрытый ключ в памяти"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:title="Создавать репозиторий"
+            android:key="git_create_for_projects"
+            android:summary="Создавать репозиторий Git для новых проектов"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Авторизация на GitHub">
+        <EditTextPreference
+            android:title="Имя пользователя"
+            android:key="user_gitname"
+            android:summary="Имя пользователя на GitHub"
+            android:dialogTitle="Введите имя пользователя:" />
+        <EditTextPreference
+            android:title="Пароль"
+            android:key="user_gitpass"
+            android:summary="Пароль от GitHub"
+            android:dialogTitle="Введите пароль:" />
+    </PreferenceCategory>
+</PreferenceScreen>

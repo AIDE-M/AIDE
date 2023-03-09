@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="?icon_run"
+        android:id="@id/designerMenuRun"
+        android:title="@string/menu_run"
+        android:showAsAction="always|withText" />
+    <item
+        android:icon="?icon_view"
+        android:id="@id/designerMenuShowBorders"
+        android:title="@string/menu_view"
+        android:showAsAction="always" />
+    <item
+        android:icon="?icon_edit"
+        android:id="@id/designerMenuHideBorders"
+        android:title="@string/menu_edit"
+        android:showAsAction="always" />
+    <item
+        android:icon="?icon_undo"
+        android:id="@id/designerMenuUndo"
+        android:title="@string/menu_undo"
+        android:showAsAction="ifRoom" />
+    <item
+        android:icon="?icon_redo"
+        android:id="@id/designerMenuRedo"
+        android:title="@string/menu_redo"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@id/designerMenuPaste"
+        android:title="@string/menu_paste_xml"
+        android:showAsAction="never" />
+    <item
+        android:id="@id/designerMenuCopy"
+        android:title="@string/menu_copy_xml"
+        android:showAsAction="never" />
+    <item
+        android:id="@id/designerMenuShare"
+        android:title="@string/menu_share_xml"
+        android:showAsAction="never" />
+</menu>

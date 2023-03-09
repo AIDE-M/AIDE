@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen
+        android:title="@string/preference_light_theme"
+        android:key="settings_white"
+        android:summary="@string/preference_theme_summary">
+        <PreferenceCategory
+            android:title="Colors in editor">
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_background"
+                android:key="editor_background_light"
+                android:summary="@string/preference_editor_background_summary"
+                android:defaultValue="0xffffffff"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_caret"
+                android:key="editor_caret_light"
+                android:summary="@string/preference_editor_caret_summary"
+                android:defaultValue="0xff2b2b2b"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_caret_line"
+                android:key="editor_caret_line_light"
+                android:summary="@string/preference_editor_caret_line_summary"
+                android:defaultValue="0xfff5f5f5"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_diff_deleted"
+                android:key="editor_diff_deleted_light"
+                android:summary="@string/preference_editor_diff_deleted_summary"
+                android:defaultValue="0xffffcaca"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_diff_inserted"
+                android:key="editor_diff_inserted_light"
+                android:summary="@string/preference_editor_diff_inserted_summary"
+                android:defaultValue="0xffe2f0b6"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_hyperlink"
+                android:key="editor_hyperlink_light"
+                android:summary="@string/preference_editor_hyperlink_summary"
+                android:defaultValue="0xff000000"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_line_number"
+                android:key="editor_line_number_light"
+                android:summary="@string/preference_editor_caret_line_summary"
+                android:defaultValue="0xffd0d0d0"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_selection"
+                android:key="editor_selection_light"
+                android:summary="@string/preference_editor_selection_summary"
+                android:defaultValue="0xff0099cc"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_selection"
+                android:key="editor_selection_material_light"
+                android:summary="@string/preference_editor_selection_material_summary"
+                android:defaultValue="0xff999999"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_syntax_separator"
+                android:key="editor_separator_light"
+                android:summary="@string/preference_editor_syntax_separator_summary"
+                android:defaultValue="0xffeeeeee"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_stepping_bar"
+                android:key="editor_stepping_bar_light"
+                android:summary="@string/preference_editor_stepping_bar_summary"
+                android:defaultValue="0xffffc8c8"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_syntax_comment"
+                android:key="editor_syntax_comment_light"
+                android:summary="@string/preference_editor_syntax_comment_summary"
+                android:defaultValue="0xff009b00"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_syntax_identifier"
+                android:key="editor_syntax_identifier_light"
+                android:summary="@string/preference_editor_syntax_identifier_summary"
+                android:defaultValue="0xff000000"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_syntax_keyword"
+                android:key="editor_syntax_keyword_light"
+                android:summary="@string/preference_editor_syntax_keyword_summary"
+                android:defaultValue="0xff2c82c8"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_syntax_literal"
+                android:key="editor_syntax_literal_light"
+                android:summary="@string/preference_editor_syntax_literal_summary"
+                android:defaultValue="0xffbc0000"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_syntax_operator"
+                android:key="editor_syntax_operator_light"
+                android:summary="@string/preference_editor_syntax_operator_summary"
+                android:defaultValue="0xff007c1f"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_syntax_package"
+                android:key="editor_syntax_package_light"
+                android:summary="@string/preference_editor_syntax_package_summary"
+                android:defaultValue="0xff5d5d5d"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_syntax_plain"
+                android:key="editor_syntax_plain_light"
+                android:summary="@string/preference_editor_syntax_plain_summary"
+                android:defaultValue="0xff000000"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_syntax_separator"
+                android:key="editor_syntax_separator_light"
+                android:summary="@string/preference_editor_syntax_separator_summary"
+                android:defaultValue="0xff0096ff"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_syntax_type"
+                android:key="editor_syntax_type_light"
+                android:summary="@string/preference_editor_syntax_type_summary"
+                android:defaultValue="0xff0096ff"
+                alphaSlider="true"
+                hexValue="true" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:title="@string/preference_dark_theme"
+        android:key="settings_dark"
+        android:summary="@string/preference_theme_summary">
+        <PreferenceCategory
+            android:title="Colors in editor">
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_background"
+                android:key="editor_background"
+                android:summary="@string/preference_editor_background_summary"
+                android:defaultValue="0xff2b2b2b"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_caret"
+                android:key="editor_caret"
+                android:summary="@string/preference_editor_caret_summary"
+                android:defaultValue="0xffffffff"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_caret_line"
+                android:key="editor_caret_line"
+                android:summary="@string/preference_editor_caret_line_summary"
+                android:defaultValue="0xff323232"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_diff_deleted"
+                android:key="editor_diff_deleted"
+                android:summary="@string/preference_editor_diff_deleted_summary"
+                android:defaultValue="0xff600000"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_diff_inserted"
+                android:key="editor_diff_inserted"
+                android:summary="@string/preference_editor_diff_inserted_summary"
+                android:defaultValue="0xff314800"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_hyperlink"
+                android:key="editor_hyperlink"
+                android:summary="@string/preference_editor_hyperlink_summary"
+                android:defaultValue="0xffffffff"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_line_number"
+                android:key="editor_line_number"
+                android:summary="@string/preference_editor_caret_line_summary"
+                android:defaultValue="0xff5a595b"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_selection"
+                android:key="editor_selection"
+                android:summary="@string/preference_editor_selection_summary"
+                android:defaultValue="0xffcfb17b"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_selection"
+                android:key="editor_selection_material"
+                android:summary="@string/preference_editor_selection_material_summary"
+                android:defaultValue="0xff444444"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_syntax_separator"
+                android:key="editor_separator"
+                android:summary="@string/preference_editor_syntax_separator_summary"
+                android:defaultValue="0xff111111"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_stepping_bar"
+                android:key="editor_stepping_bar"
+                android:summary="@string/preference_editor_stepping_bar_summary"
+                android:defaultValue="0xff700000"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_syntax_comment"
+                android:key="editor_syntax_comment"
+                android:summary="@string/preference_editor_syntax_comment_summary"
+                android:defaultValue="0xff757575"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_syntax_identifier"
+                android:key="editor_syntax_identifier"
+                android:summary="@string/preference_editor_syntax_identifier_summary"
+                android:defaultValue="0xffff4081"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_syntax_keyword"
+                android:key="editor_syntax_keyword"
+                android:summary="@string/preference_editor_syntax_keyword_summary"
+                android:defaultValue="0xfff4511e"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_syntax_literal"
+                android:key="editor_syntax_literal"
+                android:summary="@string/preference_editor_syntax_literal_summary"
+                android:defaultValue="0xff009688"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_syntax_operator"
+                android:key="editor_syntax_operator"
+                android:summary="@string/preference_editor_syntax_operator_summary"
+                android:defaultValue="0xffbebebe"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_syntax_package"
+                android:key="editor_syntax_package"
+                android:summary="@string/preference_editor_syntax_package_summary"
+                android:defaultValue="0xffbebebe"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_syntax_plain"
+                android:key="editor_syntax_plain"
+                android:summary="@string/preference_editor_syntax_plain_summary"
+                android:defaultValue="0xffbebebe"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_syntax_separator"
+                android:key="editor_syntax_separator"
+                android:summary="@string/preference_editor_syntax_separator_summary"
+                android:defaultValue="0xffbebebe"
+                alphaSlider="true"
+                hexValue="true" />
+            <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:title="@string/preference_editor_syntax_type"
+                android:key="editor_syntax_type"
+                android:summary="@string/preference_editor_syntax_type_summary"
+                android:defaultValue="0xfff4511e"
+                alphaSlider="true"
+                hexValue="true" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:title="@string/more_preferences"
+        android:key="themes_key"
+        android:summary="@string/more_preferences_summary">
+        <Preference
+            android:title="@string/save_pref"
+            android:key="save_temp"
+            android:summary="@string/save_pref_summary" />
+        <Preference
+            android:title="@string/restore_pref"
+            android:key="load_pref_file"
+            android:summary="@string/restore_pref_summary" />
+        <Preference
+            android:title="@string/clear_pref"
+            android:key="clear_pref_file"
+            android:summary="@string/clear_pref_summary" />
+    </PreferenceScreen>
+</PreferenceScreen>

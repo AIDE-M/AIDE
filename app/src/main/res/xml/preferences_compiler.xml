@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/preference_category_run">
+        <SwitchPreference
+            android:title="@string/preference_title_run"
+            android:key="run_as_root"
+            android:summary="@string/preference_summary_run"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/preference_category_sdk">
+        <EditTextPreference
+            android:title="@string/preference_title_sdk"
+            android:key="user_androidjar"
+            android:summary="@string/preference_summary_sdk"
+            android:dialogTitle="@string/preference_dialog_sdk" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/preference_category_gradle">
+        <Preference
+            android:title="@string/preference_title_refresh_maven"
+            android:key="refresh_maven_repository"
+            android:summary="@string/preference_summary_refresh_maven" />
+        <com.aide.ui.preferences.PremiumEditTextPreference
+            android:title="@string/preference_title_local_maven"
+            android:key="user_m2repositories"
+            android:summary="@string/preference_summary_local_maven"
+            android:dialogTitle="@string/preference_dialog_local_maven" />
+        <com.aide.ui.preferences.PremiumEditTextPreference
+            android:title="Save path maven"
+            android:key="maven_save_path"
+            android:summary="Enter the path to save maven"
+            android:dialogTitle="Enter full path" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/preference_category_native_code">
+        <Preference
+            android:title="@string/preference_title_native_code"
+            android:key="install_uninstall_ndksupport"
+            android:summary="@string/preference_summary_native_code" />
+        <SwitchPreference
+            android:title="@string/preference_title_parallel_build"
+            android:key="native_build_parallel"
+            android:summary="@string/preference_summary_parallel_build"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/preference_category_apk_sign">
+        <SwitchPreference
+            android:title="@string/preference_title_custom_keystore"
+            android:key="use_user_keystore"
+            android:summary="@string/preference_summary_custom_keystore"
+            android:defaultValue="false" />
+        <EditTextPreference
+            android:title="@string/preference_title_keystore_file"
+            android:key="user_keystore"
+            android:summary="@string/preference_summary_keystore_file"
+            android:dependency="use_user_keystore"
+            android:dialogTitle="@string/preference_dialog_keystore_file" />
+        <Preference
+            android:title="@string/preference_title_create_keystore"
+            android:key="generate_keystore"
+            android:dependency="use_user_keystore" />
+        <EditTextPreference
+            android:title="Default password"
+            android:key="user_keystore_pswd_default"
+            android:summary=""
+            android:dialogTitle="Enter default password" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/preference_category_dex">
+        <SwitchPreference
+            android:title="ADRT debug"
+            android:key="use_adrt"
+            android:summary="To apply the settings, restart the application"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:title="@string/preference_title_dex"
+            android:key="optimze_dex"
+            android:summary="@string/preference_summary_dex"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:title="@string/proguard_title"
+            android:key="use_proguard"
+            android:summary="@string/proguard_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Resources">
+        <SwitchPreference
+            android:title="Resources protected"
+            android:key="use_modaapt"
+            android:summary="To apply the settings, restart the application"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

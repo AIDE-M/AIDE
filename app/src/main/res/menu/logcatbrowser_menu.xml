@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/logcatMenuPause"
+        android:title="@string/command_logcat_pause" />
+    <item
+        android:id="@id/logcatMenuResume"
+        android:title="@string/command_logcat_resume" />
+    <item
+        android:id="@id/logcatMenuFilterCurrent"
+        android:title="@string/command_logcat_filter_current_app" />
+    <item
+        android:id="@id/logcatMenuFilterByPrio"
+        android:title="@string/command_logcat_filter_by_priority" />
+    <item
+        android:id="@id/logcatMenuFilterByProcess"
+        android:title="@string/command_logcat_filter_by_process" />
+    <item
+        android:id="@id/logcatMenuFilterByTag"
+        android:title="@string/command_logcat_filter_by_tag" />
+    <item
+        android:id="@id/logcatMenuClearFilter"
+        android:title="@string/command_logcat_clear_filter" />
+    <item
+        android:id="@id/logcatMenuClear"
+        android:title="@string/command_logcat_clear" />
+</menu>

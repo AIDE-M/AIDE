@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:padding="2.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/searchbrowserFile"
+        android:paddingLeft="20.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/searchbrowserEntryFileImage"
+            style="@style/BrowserImage" />
+        <TextView
+            android:ellipsize="end"
+            android:id="@id/searchbrowserEntryFileName"
+            android:paddingLeft="3.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:singleLine="true"
+            style="@style/BrowserLabelLarge" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/searchbrowserCode"
+        android:paddingLeft="40.0dip"
+        android:paddingTop="4.0dip"
+        android:paddingBottom="4.0dip"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.aide.ui.browsers.FindResultTextView
+            android:ellipsize="end"
+            android:id="@id/searchbrowserCodeLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:singleLine="true"
+            style="@style/BrowserCodeLine" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:title="Приложение"
+        android:summary="Настройки приложения."
+        android:fragment="com.aide.ui.preferences.ApplicationPreferencesFragment" />
+    <header
+        android:title="Редактор"
+        android:summary="Настройки редактора."
+        android:fragment="com.aide.ui.preferences.EditorPreferencesFragment" />
+    <header
+        android:title="Стиль кода"
+        android:summary="Настройки стиля кода."
+        android:fragment="com.aide.ui.preferences.CodestylePreferencesFragment" />
+    <header
+        android:title="@string/preference_syntax"
+        android:summary="@string/preference_syntax_summary"
+        android:fragment="com.mrikso.theme.ThemeFragment" />
+    <header
+        android:title="Сборка &amp; Запуск"
+        android:summary="Настройки сборки и запуска."
+        android:fragment="com.aide.ui.preferences.CompilerPreferencesFragment" />
+    <header
+        android:title="Dropbox"
+        android:summary="Настройки Dropbox."
+        android:fragment="com.aide.ui.preferences.DropboxPreferencesFragment" />
+    <header
+        android:title="Git Source"
+        android:summary="Настройки управления Git Source."
+        android:fragment="com.aide.ui.preferences.SourceControlPreferencesFragment" />
+    <header
+        android:title="Сочетания клавиш"
+        android:summary="Настройки привязки клавиш."
+        android:fragment="com.aide.ui.preferences.KeyBindingsPreferencesFragment" />
+    <header
+        android:title="Дополнительные настройки"
+        android:summary="Дополнительные настройки AIDE."
+        android:fragment="com.aide.ui.preferences.SettingsPreferencesFragment" />
+    <header
+        android:title="Автор мода"
+        android:summary="Тимашков Иван" />
+    <header
+        android:title="Поддержать автора😅"
+        android:summary="Qiwi/PayPal: timscriptov" />
+</preference-headers>

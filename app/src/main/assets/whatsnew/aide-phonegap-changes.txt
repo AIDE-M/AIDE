@@ -1,0 +1,8 @@
+Fixed: Code completion
+Improved: Updated PhoneGap app template
+
+Older changes
+New: Support for Android 6.0
+New: Various UI and editor features
+New: CSS code completion
+New: Search textually in project

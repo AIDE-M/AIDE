@@ -1,0 +1,2 @@
+Improved: Support api and implementation dependencies in gradle files
+Fixed: Some app development lessons were stuck

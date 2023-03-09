@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aide.ui.scm.ModifiedFileListEntry
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="4.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox
+        android:id="@id/modifiedFileChecked"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@id/modifiedFileImage"
+        style="@style/BrowserImageSmall" />
+    <TextView
+        android:id="@id/modifiedFileName"
+        android:padding="3.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:layout_weight="1.0"
+        style="@style/BrowserLabelSmall" />
+</com.aide.ui.scm.ModifiedFileListEntry>

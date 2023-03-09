@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minHeight="1000.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.aide.ui.views.CodeEditTextScrollView
+        android:id="@id/logcatScrollView"
+        android:fadingEdge="none"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <HorizontalScrollView
+            android:scrollbars="none"
+            android:fadingEdge="none"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:paddingBottom="3.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/BrowserHeaderBackgroundOuter">
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/BrowserHeaderBackgroundInner">
+                        <ImageView
+                            android:paddingRight="5.0dip"
+                            android:layout_marginLeft="3.0dip"
+                            android:src="@drawable/file_type_unknown"
+                            style="@style/BrowserHeaderImage" />
+                        <TextView
+                            android:id="@id/logcatHeaderText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="LogCat"
+                            style="@style/BrowserHeaderLabel" />
+                        <ImageView
+                            android:id="@id/logcatHeaderMenuButton"
+                            android:focusable="true"
+                            android:layout_marginLeft="5.0dip"
+                            android:layout_marginRight="5.0dip"
+                            android:src="?icon_more"
+                            style="@style/BrowserHeaderMenuButton" />
+                    </LinearLayout>
+                </LinearLayout>
+                <com.aide.ui.LogCatConsole
+                    android:id="@id/logcatConsole"
+                    android:background="#00000000"
+                    android:nextFocusUp="@id/logcatHeaderMenuButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <requestFocus />
+                </com.aide.ui.LogCatConsole>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </com.aide.ui.views.CodeEditTextScrollView>
+</LinearLayout>

@@ -1,0 +1,10 @@
+Improved: Support api and implementation dependencies in gradle files
+
+Older changes
+Fixed: Some app development lessons were stuck
+Fixed: Sometimes switching landscape mode did not work
+Fixed: Incorrect errors with libraries
+New: Support for Chromebooks
+New: Support for API level 27 (Android 8.1)
+New: Support for Multi-Window Mode for Android 7 (Nougat) and above
+New: Support NDK development on Android 8.0 ("Oreo") devices.

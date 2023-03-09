@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Запуск">
+        <SwitchPreference
+            android:title="Автоматическая установка приложений"
+            android:key="run_as_root"
+            android:summary="Автоматическая установка без запроса разрешения пользователя(root)."
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="SDK">
+        <EditTextPreference
+            android:title="android.jar"
+            android:key="user_androidjar"
+            android:summary="Укажите полный путь к пользовательскому android.jar для компиляции."
+            android:dialogTitle="Полный путь к android.jar:" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Gradle">
+        <Preference
+            android:title="Обновить репозиторий Maven"
+            android:key="refresh_maven_repository"
+            android:summary="Обновить все загруженные библиотеки." />
+        <com.aide.ui.preferences.PremiumEditTextPreference
+            android:title="Локальные репозитории Maven"
+            android:key="user_m2repositories"
+            android:summary="Укажите локальный репозиторий Maven для поиска зависимостей."
+            android:dialogTitle="Полный путь к локальному репозиторию maven (m2repository):" />
+        <com.aide.ui.preferences.PremiumEditTextPreference
+            android:title="Путь загрузки maven зависимостей"
+            android:key="maven_save_path"
+            android:summary="Укажите путь, где сохранять maven зависимости"
+            android:dialogTitle="Введите полный путь" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Поддержка Native кода">
+        <Preference
+            android:title="Управление поддержкой Native кода"
+            android:key="install_uninstall_ndksupport"
+            android:summary="Установить/удалить поддержку сборки Native кода (C/C++)." />
+        <SwitchPreference
+            android:title="Параллельная сборка"
+            android:key="native_build_parallel"
+            android:summary="Параллельная сборка Native кода, быстрее на многоядерных процессорах, но требует больше памяти."
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="APK подпись">
+        <SwitchPreference
+            android:title="Пользовательский ключ"
+            android:key="use_user_keystore"
+            android:summary="Используйте пользовательский ключ для подписания APK во время сборки."
+            android:defaultValue="false" />
+        <EditTextPreference
+            android:title="Ключ"
+            android:key="user_keystore"
+            android:summary="Укажите полный путь к вашему ключу подписи, используемый для подписания APK во время сборки."
+            android:dependency="use_user_keystore"
+            android:dialogTitle="Полный путь к вашему ключу:" />
+        <Preference
+            android:title="Создать ключ"
+            android:key="generate_keystore"
+            android:dependency="use_user_keystore" />
+        <EditTextPreference
+            android:title="Пароль по умолчанию"
+            android:key="user_keystore_pswd_default"
+            android:summary="Пароль для пользовательского ключа подписи"
+            android:dialogTitle="Введите пароль по умолчанию" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Dexer">
+        <SwitchPreference
+            android:title="ADRT отладка"
+            android:key="use_adrt"
+            android:summary="Для применения настроек перезапустите приложение"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:title="Dexer оптимизация"
+            android:key="optimze_dex"
+            android:summary="Включите оптимизацию dexer. Это заставит приложения работать быстрее, но приведет к увеличению времени сборки."
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:title="Proguard"
+            android:key="use_proguard"
+            android:summary="Включите Proguard. Это уменьшит вес приложения, но увеличит время сборки."
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Resources">
+        <SwitchPreference
+            android:title="Шифрование ресурсов"
+            android:key="use_modaapt"
+            android:summary="Для применения настроек перезапустите приложение"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

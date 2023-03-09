@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/designerFrame"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.widget.DrawerLayout
+        android:id="@id/designerDrawer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:id="@id/designerHeaderLearnTask"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5.0dip"
+                style="@style/TrainerHeaderOuter">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@id/designerHeaderLearnTaskInner"
+                    android:focusable="true"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/TrainerHeaderInner">
+                    <TextView
+                        android:textColor="#ffffffff"
+                        android:id="@id/designerHeaderLearnTaskTitle"
+                        android:paddingLeft="10.0dip"
+                        android:paddingTop="10.0dip"
+                        android:paddingRight="10.0dip"
+                        android:paddingBottom="10.0dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="" />
+                    <TextView
+                        android:textColor="#ffffffff"
+                        android:id="@id/designerHeaderLearnTaskText"
+                        android:paddingLeft="10.0dip"
+                        android:paddingRight="10.0dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textIsSelectable="true" />
+                    <TextView
+                        android:textColor="#ffffffff"
+                        android:id="@id/designerHeaderLearnButton"
+                        android:paddingLeft="10.0dip"
+                        android:paddingTop="10.0dip"
+                        android:paddingRight="10.0dip"
+                        android:paddingBottom="10.0dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <FrameLayout
+                android:id="@id/designerContent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+        <ListView
+            android:layout_gravity="start"
+            android:id="@id/designerViewList"
+            android:background="?android:windowBackground"
+            android:layout_width="240.0dip"
+            android:layout_height="fill_parent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0.0dip" />
+    </android.support.v4.widget.DrawerLayout>
+</FrameLayout>

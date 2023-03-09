@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#ffffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:textSize="20.0sp"
+            android:textStyle="bold"
+            android:textColor="#ff333333"
+            android:id="@id/shopExpertPopupTitle"
+            android:padding="15.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shop_expert_title" />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@id/shopExpertProgressBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ProgressBar
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="20.0dip" />
+        </LinearLayout>
+        <TableLayout
+            android:orientation="horizontal"
+            android:id="@id/shopExpertFeatureTable"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="0"
+            android:shrinkColumns="1,2">
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:layout_weight="0.5" />
+                <TextView
+                    android:textStyle="bold"
+                    android:ellipsize="end"
+                    android:gravity="center_horizontal"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="Free"
+                    android:maxLines="1"
+                    android:layout_weight="0.25" />
+                <TextView
+                    android:textStyle="bold"
+                    android:ellipsize="end"
+                    android:gravity="center_horizontal"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="Developer"
+                    android:maxLines="1"
+                    android:layout_weight="0.25" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:ellipsize="end"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="Basic functionality"
+                    android:maxLines="1"
+                    android:layout_weight="0.5" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:layout_weight="0.25" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:layout_weight="0.25" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:ellipsize="end"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="UI Designer"
+                    android:maxLines="1"
+                    android:layout_weight="0.5" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_errors"
+                    android:layout_weight="0.25" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:layout_weight="0.25" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:maxLines="1"
+                android:layout_weight="1.0">
+                <TextView
+                    android:ellipsize="end"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="Debugger"
+                    android:layout_weight="0.5" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_errors"
+                    android:layout_weight="0.25" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:layout_weight="0.25" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:ellipsize="end"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="No advertisements"
+                    android:maxLines="1"
+                    android:layout_weight="0.5" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_errors"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:layout_weight="0.25" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:layout_weight="0.25" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:ellipsize="end"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="Saving Java files"
+                    android:maxLines="1"
+                    android:layout_weight="0.5" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_errors"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:layout_weight="0.25" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:layout_weight="0.25" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:ellipsize="end"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="Saving large Android projects"
+                    android:maxLines="1"
+                    android:layout_weight="0.5" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_errors"
+                    android:layout_weight="0.25" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:layout_weight="0.25" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:ellipsize="end"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="Direct run (root needed)"
+                    android:maxLines="1"
+                    android:layout_weight="0.5" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_errors"
+                    android:layout_weight="0.25" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:layout_weight="0.25" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:ellipsize="end"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="Git push"
+                    android:maxLines="1"
+                    android:layout_weight="0.5" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_errors"
+                    android:layout_weight="0.25" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:layout_weight="0.25" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:ellipsize="end"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="APK publishing"
+                    android:layout_weight="0.5" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_errors"
+                    android:layout_weight="0.25" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:layout_weight="0.25" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:ellipsize="end"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="Offline SDK help"
+                    android:maxLines="1"
+                    android:layout_weight="0.5" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_errors"
+                    android:layout_weight="0.25" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:layout_weight="0.25" />
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:orientation="horizontal"
+            android:id="@id/shopExpertFeatureTableWeb"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="0"
+            android:shrinkColumns="1,2">
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:layout_weight="0.5" />
+                <TextView
+                    android:textStyle="bold"
+                    android:ellipsize="end"
+                    android:gravity="center_horizontal"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="Free"
+                    android:maxLines="1"
+                    android:layout_weight="0.25" />
+                <TextView
+                    android:textStyle="bold"
+                    android:ellipsize="end"
+                    android:gravity="center_horizontal"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="Developer"
+                    android:maxLines="1"
+                    android:layout_weight="0.25" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:ellipsize="end"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="Basic functionality"
+                    android:maxLines="1"
+                    android:layout_weight="0.5" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:layout_weight="0.25" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:layout_weight="0.25" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:ellipsize="end"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="Saving large projects"
+                    android:maxLines="1"
+                    android:layout_weight="0.5" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_errors"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:layout_weight="0.25" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:layout_weight="0.25" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:ellipsize="end"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="No advertisements"
+                    android:maxLines="1"
+                    android:layout_weight="0.5" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_errors"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:layout_weight="0.25" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:layout_weight="0.25" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:ellipsize="end"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="Git push"
+                    android:maxLines="1"
+                    android:layout_weight="0.5" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_errors"
+                    android:layout_weight="0.25" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:layout_weight="0.25" />
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:orientation="horizontal"
+            android:id="@id/shopExpertFeatureTableUpgrade"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="0"
+            android:shrinkColumns="1,2">
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:layout_weight="0.5" />
+                <TextView
+                    android:textStyle="bold"
+                    android:ellipsize="end"
+                    android:gravity="center_horizontal"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="Current"
+                    android:maxLines="1"
+                    android:layout_weight="0.25" />
+                <TextView
+                    android:textStyle="bold"
+                    android:ellipsize="end"
+                    android:gravity="center_horizontal"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="Developer"
+                    android:maxLines="1"
+                    android:layout_weight="0.25" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:ellipsize="end"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="Premium features"
+                    android:maxLines="1"
+                    android:layout_weight="0.5" />
+                <ImageView
+                    android:id="@id/shopExpertFeatureTableUpgradeCurrentPremiumImage"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_errors"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:layout_weight="0.25" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:layout_weight="0.25" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:ellipsize="end"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="UI Designer"
+                    android:maxLines="1"
+                    android:layout_weight="0.5" />
+                <ImageView
+                    android:id="@id/shopExpertFeatureTableUpgradeCurrentUIDesignerImage"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_errors"
+                    android:layout_weight="0.25" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:layout_weight="0.25" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:maxLines="1"
+                android:layout_weight="1.0">
+                <TextView
+                    android:ellipsize="end"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="Debugger"
+                    android:layout_weight="0.5" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_errors"
+                    android:layout_weight="0.25" />
+                <ImageView
+                    android:id="@id/shopExpertFeatureTableUpgradeCurrentDebuggerImage"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:layout_weight="0.25" />
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:orientation="horizontal"
+            android:id="@id/shopExpertFeatureTableNoAds"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="0"
+            android:shrinkColumns="1,2">
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:layout_weight="0.5" />
+                <TextView
+                    android:textStyle="bold"
+                    android:ellipsize="end"
+                    android:gravity="center_horizontal"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="Free"
+                    android:maxLines="1"
+                    android:layout_weight="0.25" />
+                <TextView
+                    android:textStyle="bold"
+                    android:ellipsize="end"
+                    android:gravity="center_horizontal"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="Developer"
+                    android:maxLines="1"
+                    android:layout_weight="0.25" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:ellipsize="end"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="Basic functionality"
+                    android:maxLines="1"
+                    android:layout_weight="0.5" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:layout_weight="0.25" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:layout_weight="0.25" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:ellipsize="end"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="UI Designer"
+                    android:maxLines="1"
+                    android:layout_weight="0.5" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_errors"
+                    android:layout_weight="0.25" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:layout_weight="0.25" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:maxLines="1"
+                android:layout_weight="1.0">
+                <TextView
+                    android:ellipsize="end"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="Debugger"
+                    android:layout_weight="0.5" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_errors"
+                    android:layout_weight="0.25" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:layout_weight="0.25" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:ellipsize="end"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="Premium Features"
+                    android:maxLines="1"
+                    android:layout_weight="0.5" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_errors"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:layout_weight="0.25" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:layout_weight="0.25" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:textStyle="bold"
+                    android:ellipsize="end"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="No advertisements"
+                    android:maxLines="1"
+                    android:layout_weight="0.5" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_errors"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:layout_weight="0.25" />
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/project_no_errors"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:layout_weight="0.25" />
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:textSize="14.0sp"
+            android:textStyle="italic"
+            android:textColor="#ffff0000"
+            android:id="@id/shopExpertPopupErrorMessage"
+            android:padding="15.0dip"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <GridLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="15.0dip"
+            android:layout_marginBottom="15.0dip"
+            android:rowCount="1"
+            android:columnCount="2">
+            <LinearLayout
+                android:gravity="bottom"
+                android:layout_gravity="bottom|center|left"
+                android:orientation="horizontal"
+                android:paddingLeft="15.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="110.0dip"
+                    android:layout_height="30.0dip"
+                    android:src="@drawable/google_play" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:orientation="vertical"
+                android:id="@id/shopExpertButtonsLayout"
+                android:paddingLeft="15.0dip"
+                android:paddingRight="15.0dip"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <FrameLayout
+                    android:clipChildren="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:background="@drawable/shop_button"
+                        android:clipChildren="false"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12.0dip"
+                        android:layout_marginRight="15.0dip">
+                        <TextView
+                            android:textSize="14.0sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffffff"
+                            android:gravity="center_horizontal"
+                            android:id="@id/shopExpertPopupBuyButton"
+                            android:background="?android:selectableItemBackground"
+                            android:paddingLeft="15.0dip"
+                            android:paddingTop="8.0dip"
+                            android:paddingRight="15.0dip"
+                            android:paddingBottom="8.0dip"
+                            android:focusable="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/shop_expert_get_for" />
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_gravity="center|right|top"
+                        android:id="@id/shopExpertPopupEntrySpecialImage"
+                        android:visibility="gone"
+                        android:layout_width="40.0dip"
+                        android:layout_height="47.0dip"
+                        android:layout_marginTop="-7.0dip"
+                        android:src="@drawable/badge_sale" />
+                </FrameLayout>
+                <LinearLayout
+                    android:background="@color/common_google_signin_btn_text_light_disabled"
+                    android:clipChildren="false"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="12.0dip"
+                    android:layout_marginRight="15.0dip">
+                    <TextView
+                        android:textSize="14.0sp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffffff"
+                        android:gravity="center_horizontal"
+                        android:id="@id/shopExpertPopupFreeButton"
+                        android:background="@color/common_google_signin_btn_text_light_disabled"
+                        android:paddingLeft="15.0dip"
+                        android:paddingTop="8.0dip"
+                        android:paddingRight="15.0dip"
+                        android:paddingBottom="8.0dip"
+                        android:focusable="true"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Continue Free"
+                        android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

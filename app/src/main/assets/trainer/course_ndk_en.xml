@@ -1,0 +1,8 @@
+<Course
+    release_date="2014-08-10" 
+    title="Android NDK Development"
+    code_section="Build your own Android app using C/C++"
+	code_template="Start with this empty project template to create your own program."
+    explore_section="Explore Android sample apps, which use the Native Development Kit and C/C++ to implement features">
+
+</Course>

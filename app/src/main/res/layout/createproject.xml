@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@id/createprojectType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            style="@style/DialogLabel" />
+        <TextView
+            android:id="@id/createprojectLocation"
+            android:paddingLeft="10.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:text="/"
+            style="@style/DialogLabelSmall" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:text="@string/dialog_create_project_name"
+            style="@style/DialogLabel" />
+        <EditText
+            android:id="@id/createprojectName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            style="@style/DialogEditText" />
+        <TextView
+            android:id="@id/createprojectPackageLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:text="@string/dialog_create_project_package_name"
+            style="@style/DialogLabel" />
+        <EditText
+            android:id="@id/createprojectPackage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            style="@style/DialogEditText" />
+    </LinearLayout>
+</ScrollView>

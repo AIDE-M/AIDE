@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/mainFrame"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/mainActionBarPopupAnchor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.aide.ui.views.SplitView
+        android:id="@id/mainSplitView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <FrameLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:gravity="center"
+                android:id="@id/mainCodeEmptyView"
+                android:visibility="visible"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                style="@style/EmptyEditorBackground">
+                <TextView
+                    android:id="@id/mainNoOpenFilesView"
+                    android:focusable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_no_open_files"
+                    style="@style/EmptyEditorLabel" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <com.aide.ui.AIDEEditorPager
+                    android:id="@id/mainCodePageView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:id="@id/mainSearchBarNoTabs"
+                    android:paddingLeft="2.0dip"
+                    android:paddingTop="5.0dip"
+                    android:paddingRight="2.0dip"
+                    android:paddingBottom="1.0dip"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="?android:actionBarSize">
+                    <TextView
+                        android:id="@id/mainSearchLabel"
+                        android:padding="3.0dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Search:"
+                        style="@style/SearchLabel" />
+                    <EditText
+                        android:id="@id/mainSearchBox"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/SearchEditText" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout
+            android:background="?color_split_separator"
+            android:paddingTop="2.0dip"
+            android:paddingRight="2.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.aide.ui.browsers.BrowserPager
+            android:id="@id/mainBrowserPager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </com.aide.ui.views.SplitView>
+    <LinearLayout
+        android:gravity="center|right|top"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.aide.ui.AIDEAnalysisProgressBar
+            android:id="@id/mainErrorProgress"
+            android:layout_width="fill_parent"
+            android:layout_height="3.0dip"
+            style="@style/AnalysisProgressBar" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center|right|top"
+        android:orientation="vertical"
+        android:id="@id/mainActionBarContainerNoTabs"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/mainActionBarNoTabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/ActionBarTopRight" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="bottom|center|right"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:id="@id/mainMasterButton"
+            android:focusable="true"
+            android:layout_width="60.0dip"
+            android:layout_height="60.0dip"
+            android:layout_margin="10.0dip"
+            android:src="@drawable/master_button" />
+    </LinearLayout>
+    <AbsoluteLayout
+        android:id="@id/mainPopupAnchorContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <LinearLayout
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:id="@id/mainQuickKeyBarContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</FrameLayout>

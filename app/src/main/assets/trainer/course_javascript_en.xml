@@ -1,0 +1,15 @@
+<Course
+    release_date="2014-10-01"
+    icon="ic_launcher_javascript"
+	title="JavaScript Skills"
+    full_title="JavaScript programming skills"  
+	code_section="Code your own JavaScript programs and sharpen your programming skills"
+	code_template="Start with this empty project template to create your own program.">
+	
+    <Files 
+        template="simple_project"
+        project_name="My JavaScript Application">
+    	<CodeFile name="main.js" />    
+    </Files>
+    
+</Course>

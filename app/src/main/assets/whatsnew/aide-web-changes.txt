@@ -1,0 +1,7 @@
+New: Support for Chromebooks
+
+Older changes
+New: Support for Multi-Window Mode for Android 7 (Nougat) and above
+Improved: UI improvements
+Improved: Keyboard navigation
+Improved: Typing assistance for }

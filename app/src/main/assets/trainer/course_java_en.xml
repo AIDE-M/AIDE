@@ -1,0 +1,15 @@
+<Course
+    icon="ic_launcher_java"
+    release_date="2014-03-04"
+	title="@string/course_java"
+	full_title="@string/course_java_long_title"
+	code_section="@string/course_java_code_section"
+	code_template="@string/course_java_code_template">
+    
+    <Files 
+        template="simple_project"
+        project_name="My Java Application">
+    	<CodeFile name="Main.java" />    
+    </Files>
+
+</Course>

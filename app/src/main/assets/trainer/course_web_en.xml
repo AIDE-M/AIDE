@@ -1,0 +1,16 @@
+<Course
+    release_date="2014-10-01"
+    icon="ic_launcher_web"
+	title="Web Development"
+    full_title="web development"  
+    explore_section="Explore real-world sample websites"
+	code_section="Build a professional website"
+	code_template="Start with this empty project template to create your own web site.">
+	
+    <Files 
+        template="simple_project"
+        project_name="My Website">
+    	<CodeFile name="index.html" />    
+    </Files>
+    
+</Course>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="right"
+    android:orientation="vertical"
+    android:id="@id/quickKeyBar"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/quickKeyBarKeysContainer"
+        android:background="?drawable_keybar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <HorizontalScrollView
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/quickKeyBarList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </HorizontalScrollView>
+        <ImageView
+            android:gravity="center"
+            android:id="@id/quickKeyBarCloseButton"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="5.0dip"
+            android:src="?icon_close_keys"
+            android:scaleType="centerInside" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/quickKeyBarOpenButtonContainer"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:gravity="center"
+            android:id="@id/quickKeyBarOpenButton"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:src="?icon_open_keys"
+            android:scaleType="centerInside" />
+    </LinearLayout>
+</LinearLayout>

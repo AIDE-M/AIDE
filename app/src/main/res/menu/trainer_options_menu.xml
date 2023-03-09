@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/trainerMenuSoundOn"
+        android:title="@string/trainer_sound_on"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@id/trainerMenuSoundOff"
+        android:title="@string/trainer_sound_off"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@id/trainerMenuVoiceOn"
+        android:title="@string/trainer_voice_on"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@id/trainerMenuVoiceOff"
+        android:title="@string/trainer_voice_off"
+        android:showAsAction="ifRoom" />
+</menu>

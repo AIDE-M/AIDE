@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@id/trainerDrawer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@id/trainerContent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <android.support.v4.view.ViewPager
+            android:id="@id/trainerViewPager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <android.support.v4.view.PagerTitleStrip
+                android:textSize="16.0sp"
+                android:textColor="#ffffffff"
+                android:layout_gravity="top"
+                android:id="@id/trainerPagerTitleStrip"
+                android:background="@drawable/trainer_header_normal"
+                android:padding="2.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </android.support.v4.view.ViewPager>
+    </FrameLayout>
+    <LinearLayout
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:id="@id/trainerSideDrawer"
+        android:background="?android:windowBackground"
+        android:fadingEdge="none"
+        android:layout_width="240.0dip"
+        android:layout_height="fill_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0.0dip"
+        android:fillViewport="true">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <LinearLayout
+                android:gravity="left"
+                android:orientation="vertical"
+                android:id="@id/trainerLinearLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </ScrollView>
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>

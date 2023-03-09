@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/filebrowserMenuRename"
+        android:title="@string/command_files_rename" />
+    <item
+        android:id="@id/filebrowserMenuDelete"
+        android:title="@string/command_files_delete" />
+    <item
+        android:id="@id/filebrowserMenuCopyPath"
+        android:title="@string/command_files_copy_path" />
+    <item
+        android:id="@id/filebrowserShowProjects"
+        android:title="@string/command_files_show_projects" />
+    <item
+        android:id="@id/filebrowserShowCurrent"
+        android:title="@string/command_files_show_current_file" />
+    <item
+        android:id="@id/filebrowserMenuNewItem"
+        android:title="@string/command_files_create_new_project_item" />
+    <item
+        android:id="@id/filebrowserMenuNewFile"
+        android:title="@string/command_files_create_new_file" />
+    <item
+        android:id="@id/filebrowserMenuNewDir"
+        android:title="@string/command_files_create_new_folder" />
+    <item
+        android:id="@id/filebrowserMenuNewProject"
+        android:title="@string/command_files_create_new_project" />
+    <item
+        android:id="@id/filebrowserMenuAddLibrary"
+        android:title="@string/command_files_add_library_to_project" />
+    <item
+        android:id="@id/filebrowserMenuRemoveLibrary"
+        android:title="@string/command_files_remove_library_from_project" />
+    <item
+        android:id="@id/filebrowserMenuSetAndroidJar"
+        android:title="@string/command_files_set_as_androidjar" />
+    <item
+        android:id="@id/filebrowserMenuGitCloneRepository"
+        android:title="@string/command_files_clone_git_repository" />
+</menu>

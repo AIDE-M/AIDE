@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:id="@id/webpreviewHeaderLearnTask"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dip"
+            style="@style/TrainerHeaderOuter">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/webpreviewHeaderLearnTaskInner"
+                android:focusable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/TrainerHeaderInner">
+                <TextView
+                    android:textColor="#ffffffff"
+                    android:id="@id/webpreviewHeaderLearnTitle"
+                    android:paddingLeft="10.0dip"
+                    android:paddingTop="10.0dip"
+                    android:paddingRight="10.0dip"
+                    android:paddingBottom="5.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                <TextView
+                    android:textColor="#ffffffff"
+                    android:id="@id/webpreviewHeaderLearnMessage"
+                    android:paddingLeft="10.0dip"
+                    android:paddingRight="10.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                <TextView
+                    android:textColor="#ffffffff"
+                    android:id="@id/webpreviewHeaderButton"
+                    android:paddingLeft="10.0dip"
+                    android:paddingTop="10.0dip"
+                    android:paddingRight="10.0dip"
+                    android:paddingBottom="10.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/webpreviewContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="bottom|center|right"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:id="@id/webpreviewMasterButton"
+            android:focusable="true"
+            android:layout_width="60.0dip"
+            android:layout_height="60.0dip"
+            android:layout_margin="10.0dip"
+            android:src="@drawable/cast_button" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="3.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location:"
+            style="@style/DialogLabel" />
+        <TextView
+            android:id="@id/gitclonerepositoryLocation"
+            android:paddingLeft="10.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:text="/"
+            style="@style/DialogLabelSmall" />
+        <TextView
+            android:paddingTop="10.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Repository URL:"
+            style="@style/DialogLabel" />
+        <EditText
+            android:id="@id/gitclonerepositoryUrl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            style="@style/DialogEditText" />
+        <TextView
+            android:paddingTop="10.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Directory Name:"
+            style="@style/DialogLabel" />
+        <EditText
+            android:id="@id/gitclonerepositoryDirectoryName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            style="@style/DialogEditText" />
+    </LinearLayout>
+</ScrollView>

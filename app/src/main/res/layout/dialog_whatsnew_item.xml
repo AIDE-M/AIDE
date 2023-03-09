@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="10.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="20.0sp"
+        android:textColor="?color_browser_label_gray"
+        android:id="@id/whatsNewItemHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10.0dip"
+        android:text="Text" />
+    <LinearLayout
+        android:gravity="top"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/whatsNewItemIcon"
+            android:layout_width="60.0dip"
+            android:layout_height="60.0dip"
+            android:src="@drawable/ic_launcher" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip">
+            <TextView
+                android:textSize="20.0sp"
+                android:textStyle="bold"
+                android:textColor="?color_browser_label"
+                android:id="@id/whatsNewItemTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium Text" />
+            <TextView
+                android:textSize="16.0sp"
+                android:textColor="?color_browser_label_gray"
+                android:id="@id/whatsNewItemSubTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text" />
+            <TextView
+                android:textSize="16.0sp"
+                android:textColor="?color_browser_label_gray"
+                android:id="@id/whatsNewItemText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

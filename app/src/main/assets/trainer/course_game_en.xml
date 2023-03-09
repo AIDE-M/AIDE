@@ -1,0 +1,17 @@
+<Course
+    icon="ic_launcher_game"
+    release_date="2014-03-26"
+	title="@string/course_game"
+	full_title="@string/course_game_long_title"
+	code_section="@string/course_game_code_section"
+	code_template="@string/course_game_code_template" >|
+
+    <Files 
+        template="libgdx_project"
+        open_path="gdx-game-android"
+        project_name="My Game"
+        package_name="mylibgdxgame" >
+    	<CodeFile name="MyGdxGame.java" />    
+    </Files>
+	
+</Course>

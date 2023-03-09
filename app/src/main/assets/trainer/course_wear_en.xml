@@ -1,0 +1,9 @@
+<Course
+    icon="ic_launcher_wear"
+	release_date="2014-08-10" 
+    title="Android Wear Development"
+    code_section="Build the next must-have Android Wear app"
+	code_template="Start with this empty project template to create your own wear app."
+    explore_section="Explore real-world Android Wear sample apps. You need to have an Android Wear smart watch in order to run these samples" >
+
+</Course>

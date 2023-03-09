@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/BrowserHeaderBackgroundOuter"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/BrowserHeaderBackgroundInner">
+        <ImageView
+            android:id="@id/browserHeaderIcon"
+            android:paddingRight="5.0dip"
+            android:layout_marginLeft="3.0dip"
+            android:src="@drawable/file_type_unknown"
+            style="@style/BrowserHeaderImage" />
+        <TextView
+            android:ellipsize="start"
+            android:id="@id/browserHeaderLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:singleLine="true"
+            android:layout_weight="1.0"
+            style="@style/BrowserHeaderLabel" />
+        <ImageView
+            android:id="@id/browserHeaderMenuButton"
+            android:focusable="true"
+            android:layout_marginLeft="5.0dip"
+            android:src="?icon_more"
+            style="@style/BrowserHeaderMenuButton" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="2.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="20.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/filebrowserEntryFileImage"
+            style="@style/BrowserImage" />
+        <TextView
+            android:id="@id/filebrowserEntryName"
+            android:paddingLeft="3.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:singleLine="true"
+            style="@style/BrowserLabelLarge" />
+    </LinearLayout>
+</LinearLayout>

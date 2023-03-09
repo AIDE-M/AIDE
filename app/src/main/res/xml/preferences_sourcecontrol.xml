@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/preference_category_git">
+        <EditTextPreference
+            android:title="@string/preference_title_user_name"
+            android:key="git_user_name"
+            android:summary="@string/preference_summary_user_name"
+            android:dialogTitle="@string/preference_dialog_user_name" />
+        <EditTextPreference
+            android:title="@string/preference_title_user_email"
+            android:key="git_user_email"
+            android:summary="@string/preference_summary_user_email"
+            android:dialogTitle="@string/preference_dialog_user_email" />
+        <EditTextPreference
+            android:title="@string/preference_title_ssh_dir"
+            android:key="git_dot_ssh_dir"
+            android:summary="@string/preference_summary_ssh_dir"
+            android:dialogTitle="@string/preference_dialog_ssh_dir" />
+        <SwitchPreference
+            android:title="@string/preference_title_keep_ssh"
+            android:key="git_keep_ssh_session_info"
+            android:summary="@string/preference_summary_keep_ssh"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:title="@string/preference_title_repo"
+            android:key="git_create_for_projects"
+            android:summary="@string/preference_summary_create_repo"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Github log in">
+        <EditTextPreference
+            android:title="Username"
+            android:key="user_gitname"
+            android:summary="Username on GitHub"
+            android:dialogTitle="Enter your username:" />
+        <EditTextPreference
+            android:title="Password"
+            android:key="user_gitpass"
+            android:summary="Password on GitHub"
+            android:dialogTitle="Enter your password:" />
+    </PreferenceCategory>
+</PreferenceScreen>

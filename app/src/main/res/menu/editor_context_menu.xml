@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="?icon_manage"
+        android:id="@id/editorMenuChooseColor"
+        android:title="@string/command_color"
+        android:showAsAction="ifRoom|withText" />
+    <item
+        android:icon="?icon_fix"
+        android:id="@id/editorMenuFix"
+        android:title="@string/command_fix"
+        android:showAsAction="ifRoom|withText">
+        <menu>
+            <item
+                android:id="@id/editorMenuFix0"
+                android:title="@string/command_fix" />
+            <item
+                android:id="@id/editorMenuFix1"
+                android:title="@string/command_fix" />
+            <item
+                android:id="@id/editorMenuFix2"
+                android:title="@string/command_fix" />
+            <item
+                android:id="@id/editorMenuFix3"
+                android:title="@string/command_fix" />
+            <item
+                android:id="@id/editorMenuFix4"
+                android:title="@string/command_fix" />
+            <item
+                android:id="@id/editorMenuFix5"
+                android:title="@string/command_fix" />
+        </menu>
+    </item>
+    <item
+        android:icon="?icon_expand"
+        android:id="@id/editorMenuExpandSelection"
+        android:title="@string/command_select"
+        android:showAsAction="ifRoom|withText" />
+    <item
+        android:icon="?icon_cut"
+        android:id="@id/editorMenuCut"
+        android:title="@string/command_cut"
+        android:showAsAction="ifRoom" />
+    <item
+        android:icon="?icon_copy"
+        android:id="@id/editorMenuCopy"
+        android:title="@string/command_copy"
+        android:showAsAction="ifRoom" />
+    <item
+        android:icon="?icon_paste"
+        android:id="@id/editorMenuPaste"
+        android:title="@string/command_paste"
+        android:showAsAction="ifRoom" />
+    <item
+        android:icon="?icon_goto"
+        android:id="@id/editorMenuGotoDefinition"
+        android:title="@string/command_go_to"
+        android:showAsAction="ifRoom|withText" />
+    <item
+        android:icon="?icon_help"
+        android:id="@id/editorMenuHelp"
+        android:title="@string/command_documentation"
+        android:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@id/editorMenuToggleBreakpoint"
+        android:title="@string/command_breakpoint" />
+    <item
+        android:id="@id/editorMenuRefactor"
+        android:title="@string/command_refactor"
+        android:showAsAction="never">
+        <menu>
+            <item
+                android:id="@id/editorMenuRename"
+                android:title="@string/command_rename" />
+            <item
+                android:id="@id/editorMenuInlineVariable"
+                android:title="@string/command_inline_variable" />
+            <item
+                android:id="@id/editorMenuIntroduceVariable"
+                android:title="@string/command_introduce_variable" />
+            <item
+                android:id="@id/editorMenuExtractMethod"
+                android:title="@string/command_extract_method" />
+        </menu>
+    </item>
+    <item
+        android:id="@id/editorMenuCode"
+        android:title="@string/command_code"
+        android:showAsAction="never">
+        <menu>
+            <item
+                android:id="@id/editorMenuOrganizeImports"
+                android:title="@string/command_organize_imports" />
+            <item
+                android:id="@id/editorMenuSurroundWithTryCatch"
+                android:title="@string/command_surround_with_trycatch" />
+            <item
+                android:id="@id/editorMenuComment"
+                android:title="@string/command_outcomment_code" />
+            <item
+                android:id="@id/editorMenuUnComment"
+                android:title="@string/command_unoutcomment_code" />
+            <item
+                android:id="@id/editorMenuCreateSetters"
+                android:title="@string/command_create_setters_and_getters" />
+            <item
+                android:id="@id/editorMenuCreateConstructor"
+                android:title="@string/command_create_constructor" />
+            <item
+                android:id="@id/editorMenuExtractResources"
+                android:title="@string/command_extract_resources" />
+            <item
+                android:id="@id/editorMenuReplace"
+                android:title="@string/command_replace_textually" />
+        </menu>
+    </item>
+    <item
+        android:id="@id/editorMenuFormat"
+        android:title="@string/command_format"
+        android:showAsAction="never">
+        <menu>
+            <item
+                android:id="@id/editorMenuFormatCode"
+                android:title="@string/command_format_code" />
+            <item
+                android:id="@id/editorMenuLearnCodeStyle"
+                android:title="@string/command_learn_code_style" />
+            <item
+                android:id="@id/editorMenuConfigureCodeStyle"
+                android:title="@string/command_configure_code_style" />
+        </menu>
+    </item>
+    <item
+        android:id="@id/editorMenuNavigate"
+        android:title="@string/command_find"
+        android:showAsAction="never">
+        <menu>
+            <item
+                android:id="@id/editorMenuFindUsage"
+                android:title="@string/command_find_usages" />
+            <item
+                android:id="@id/editorMenuFindExtendedUsages"
+                android:title="@string/command_find_extended_usages" />
+            <item
+                android:id="@id/editorMenuFindTextually"
+                android:title="@string/command_find_textually" />
+        </menu>
+    </item>
+    <item
+        android:id="@id/editorMenuClose"
+        android:title="@string/command_close_file"
+        android:showAsAction="never" />
+</menu>

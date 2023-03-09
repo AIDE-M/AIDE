@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minHeight="1000.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.aide.ui.views.CustomKeysListView
+        android:id="@id/debuggerEntryList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        style="@style/BrowserListView" />
+</LinearLayout>

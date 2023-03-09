@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aide.ui.views.ActivityGotoLayout
+    android:id="@id/gotobrowserBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="5.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@id/gotobrowserSearchBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                style="@style/GotoEditText">
+                <requestFocus />
+            </EditText>
+            <Switch
+                android:id="@id/gotobrowserSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:textOn="All"
+                android:textOff="My" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="1.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/GotoListWindow">
+                <ListView
+                    android:id="@id/gotobrowserSymbolList"
+                    android:padding="2.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/BrowserListView" />
+                <TextView
+                    android:gravity="center"
+                    android:id="@id/gotobrowserMessage"
+                    android:padding="20.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    style="@style/BrowserLabelLarge" />
+                <ProgressBar
+                    android:id="@id/gotobrowserProgress"
+                    android:padding="20.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="true"
+                    style="@style/BrowserProgress" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.aide.ui.views.ActivityGotoLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:entries="@array/pref_language_entries"
+        android:title="Язык"
+        android:key="app_language"
+        android:summary="Язык, используемый в приложение."
+        android:defaultValue="default"
+        android:dialogTitle="Язык"
+        android:entryValues="@array/pref_language_values" />
+    <SwitchPreference
+        android:title="Светлая тема"
+        android:key="light_theme"
+        android:summary="Выберите, чтобы включить светлую тему."
+        android:defaultValue="true" />
+    <SwitchPreference
+        android:title="Вкладки файлов"
+        android:key="editor_tabs"
+        android:summary="Выберите, показывать ли вкладки для переключения между открытыми файлами." />
+    <SwitchPreference
+        android:title="Просмотр свайпом вкл/выкл"
+        android:key="browser_swipe"
+        android:summary="Выберите чтобы открывать проводник свайпом."
+        android:defaultValue="true" />
+    <SwitchPreference
+        android:title="Телеметрия"
+        android:key="send_analytics_data"
+        android:summary="Автоматически отправлять статистику использования и отчеты о сбоях в команду AIDE."
+        android:defaultValue="false" />
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<Course
+    release_date="2014-10-01"
+	title="C/C++ Skills"
+    full_title="C++ programming skills"  
+	code_section="Code your own C++ programs and sharpen your programming skills"
+	code_template="Start with this empty project template to create your own program.">
+    
+    <Files 
+        template="simple_project"
+        project_name="My C++ Application">
+    	<CodeFile name="main.cpp" />    
+    </Files>
+
+</Course>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20.0dip"
+        style="@style/TrainerBoxOuter">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/trainerlistentryBox"
+            android:padding="10.0dip"
+            android:focusable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/TrainerBoxInner">
+            <TextView
+                android:textColor="#ffffffff"
+                android:id="@id/trainerlistentryTitleView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#ffffffff"
+                android:id="@id/trainerlistentryTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip" />
+            <TextView
+                android:textColor="#ffffffff"
+                android:id="@id/trainerlistentryRatingTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:layout_gravity="center|right|top"
+        android:id="@id/trainerlistentryNewImage"
+        android:layout_width="50.0dip"
+        android:layout_height="50.0dip"
+        android:layout_margin="2.0dip"
+        android:src="@drawable/badge_new"
+        style="@style/TrainerBoxImage" />
+</FrameLayout>

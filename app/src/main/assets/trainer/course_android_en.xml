@@ -1,0 +1,18 @@
+<Course
+    release_date="2014-03-04"
+	title="@string/course_android"
+	full_title="@string/course_android_long_title"
+	code_section="@string/course_android_code_section"
+	code_template="@string/course_android_code_template"
+	explore_section="@string/course_android_explore_section" >
+
+    <Files 
+        template="simple_project"
+        project_name="My Android App"
+        package_name="myapp" >
+    	<CodeFile name="MainActivity.java" />    
+        <CodeFile name="main.xml" />    
+    </Files>
+
+</Course>
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/preference_category_font">
+        <EditTextPreference
+            android:title="@string/preference_title_font_size"
+            android:key="editor_font_size"
+            android:summary="@string/preference_summary_font_size"
+            android:dialogTitle="@string/preference_dialog_font_size" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/preference_category_save">
+        <ListPreference
+            android:entries="@array/pref_autosave_entries"
+            android:title="@string/preference_title_save"
+            android:key="autosafe_time"
+            android:summary="@string/preference_summary_save"
+            android:defaultValue="-1"
+            android:dialogTitle="@string/preference_dialog_save"
+            android:entryValues="@array/pref_autosave_values" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/preference_category_spaces">
+        <SwitchPreference
+            android:title="@string/preference_title_spaces"
+            android:key="use_spaces_for_tabs"
+            android:summary="@string/preference_summary_spaces"
+            android:defaultValue="true" />
+        <ListPreference
+            android:entries="@array/pref_tabsize_entries"
+            android:title="@string/preference_title_tab"
+            android:key="tabsize"
+            android:summary="@string/preference_summary_tab"
+            android:defaultValue="4"
+            android:dialogTitle="@string/preference_dialog_tab"
+            android:entryValues="@array/pref_tabsize_values" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/preference_category_keyboard">
+        <SwitchPreference
+            android:title="@string/preference_title_keyboard"
+            android:key="force_soft_keyboard"
+            android:summary="@string/preference_summary_keyboard"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/preference_category_help">
+        <Preference
+            android:title="@string/preference_title_docs"
+            android:key="download_doc"
+            android:summary="@string/preference_summary_docs" />
+        <com.aide.ui.preferences.PremiumEditTextPreference
+            android:title="@string/preference_title_docs_dir"
+            android:key="local_doc_dir_path"
+            android:summary="@string/preference_summary_docs_dir"
+            android:dialogTitle="@string/preference_dialog_docs_dir" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/preference_category_completion">
+        <SwitchPreference
+            android:title="@string/preference_title_after_dot"
+            android:key="complete_after_dot"
+            android:summary="@string/preference_summary_after_dot"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:title="@string/preference_title_after_letter"
+            android:key="complete_after_letter"
+            android:summary="@string/preference_summary_after_letter"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:title="@string/preference_title_all_types"
+            android:key="complete_all_types"
+            android:summary="@string/preference_summary_all_types"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

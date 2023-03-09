@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Advanced Settings">
+        <SwitchPreference
+            android:title="TODO: Implement this method"
+            android:key="use_todo"
+            android:summary="To apply the settings, restart the application"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:title="Add AndroidX in build.gradle"
+            android:key="use_gradle"
+            android:summary="To apply the settings, restart the application"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

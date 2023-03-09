@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/project_errors"
+        android:id="@id/mainMenuErrorsView"
+        android:visible="true"
+        android:title="Show Errors"
+        android:showAsAction="always"
+        android:actionViewClass="com.aide.ui.AIDEErrorsView" />
+    <item
+        android:icon="?icon_run"
+        android:id="@id/mainMenuRun"
+        android:title="@string/trainer_run"
+        android:showAsAction="always|withText" />
+    <item
+        android:icon="?icon_design"
+        android:id="@id/mainMenuPreview"
+        android:title="@string/trainer_design"
+        android:showAsAction="always|withText" />
+    <item
+        android:icon="?icon_undo"
+        android:id="@id/mainMenuUndo"
+        android:title="@string/trainer_undo"
+        android:showAsAction="ifRoom" />
+    <item
+        android:icon="?icon_redo"
+        android:id="@id/mainMenuRedo"
+        android:title="@string/trainer_redo"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@id/mainMenuLessonRestart"
+        android:title="@string/trainer_restart_lesson"
+        android:showAsAction="never" />
+    <item
+        android:id="@id/mainMenuExpertMode"
+        android:title="@string/trainer_open_lesson_as_expert"
+        android:showAsAction="never" />
+    <item
+        android:id="@id/mainMenuTrainerQuestion"
+        android:title="@string/trainer_ask_a_question"
+        android:showAsAction="never" />
+</menu>

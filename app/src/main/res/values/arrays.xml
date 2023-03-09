@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_autosave_entries">
+        <item>Off</item>
+        <item>After 15 seconds</item>
+        <item>After 1 minute</item>
+        <item>After 5 minutes</item>
+    </string-array>
+    <string-array name="pref_autosave_values">
+        <item>-1</item>
+        <item>15</item>
+        <item>60</item>
+        <item>300</item>
+    </string-array>
+    <string-array name="pref_language_entries">
+        <item>Default</item>
+        <item>English</item>
+        <item>简体中文</item>
+        <item>Русский</item>
+    </string-array>
+    <string-array name="pref_language_values">
+        <item>default</item>
+        <item>en</item>
+        <item>zh</item>
+        <item>ru</item>
+    </string-array>
+    <string-array name="pref_tabsize_entries">
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="pref_tabsize_values">
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="layout_design_activity_xml_theme">
+        <item>Light Theme Small</item>
+        <item>Dark Theme Small</item>
+        <item>Light Theme</item>
+        <item>Dark Theme</item>
+    </string-array>
+</resources>

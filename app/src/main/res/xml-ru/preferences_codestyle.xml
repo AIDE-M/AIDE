@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Размер отступа в XML">
+        <EditTextPreference
+            android:title="Отступ в XML"
+            android:key="xml_indentation_size"
+            android:summary="Укажите количество пробелов в отступе."
+            android:defaultValue="4"
+            android:dialogTitle="Количество пробелов в отступе:" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Размер отступа в HTML">
+        <EditTextPreference
+            android:title="Отступ в HTML"
+            android:key="html_indentation_size"
+            android:summary="Укажите количество пробелов в отступе"
+            android:defaultValue="2"
+            android:dialogTitle="Количество пробелов в отступе:" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Размер отступа в CSS">
+        <EditTextPreference
+            android:title="Отступ в CSS"
+            android:key="css_indentation_size"
+            android:summary="Укажите количество пробелов в отступе"
+            android:defaultValue="2"
+            android:dialogTitle="Количество пробелов в отступе:" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Размер отступа в Java">
+        <EditTextPreference
+            android:title="Отступ в Java"
+            android:key="java_indentation_size"
+            android:summary="Укажите количество пробелов в отступе"
+            android:defaultValue="4"
+            android:dialogTitle="Количество пробелов в отступе:" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Размер отступа в JavaScript">
+        <EditTextPreference
+            android:title="Отступ в JavaScript"
+            android:key="js_indentation_size"
+            android:summary="Укажите количество пробелов в отступе"
+            android:defaultValue="4"
+            android:dialogTitle="Количество пробелов в отступе:" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Размер отступа в C++">
+        <EditTextPreference
+            android:title="Отступ в C++"
+            android:key="cpp_indentation_size"
+            android:summary="Укажите количество пробелов в отступе"
+            android:defaultValue="4"
+            android:dialogTitle="Количество пробелов в отступе:" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Параметры импорта в Java">
+        <EditTextPreference
+            android:title="Импорт одного типа"
+            android:key="max_single_imports"
+            android:summary="Укажите количество импортов одного типа"
+            android:defaultValue="100"
+            android:dialogTitle="Количество импортов одного типа:" />
+    </PreferenceCategory>
+</PreferenceScreen>

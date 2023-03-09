@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/commitFrame"
+    android:background="?color_app_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.aide.ui.views.SplitView
+        android:id="@id/commitSplitView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <FrameLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <com.aide.ui.views.CodeEditTextScrollView
+                    android:id="@id/commitDifferencesScrollView"
+                    android:focusable="false"
+                    android:fadingEdge="none"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0">
+                    <HorizontalScrollView
+                        android:scrollbars="none"
+                        android:fadingEdge="none"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                style="@style/BrowserHeaderBackgroundOuter">
+                                <LinearLayout
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal"
+                                    android:padding="3.0dip"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    style="@style/BrowserHeaderBackgroundInner">
+                                    <ImageView
+                                        android:id="@id/commitHeaderFileIcon"
+                                        android:paddingRight="5.0dip"
+                                        android:src="@drawable/file_type_unknown"
+                                        style="@style/BrowserHeaderImage" />
+                                    <LinearLayout
+                                        android:orientation="vertical"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content">
+                                        <TextView
+                                            android:id="@id/commitHeaderFileName"
+                                            android:paddingBottom="1.0dip"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="/"
+                                            style="@style/BrowserHeaderLabel" />
+                                        <TextView
+                                            android:ellipsize="start"
+                                            android:id="@id/commitHeaderDirectoryName"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="/"
+                                            android:singleLine="true"
+                                            style="@style/BrowserHeaderLabelSmallGray" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <com.aide.ui.scm.DiffView
+                                android:id="@id/commitDiffView"
+                                android:background="#00000000"
+                                android:focusable="false"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </com.aide.ui.views.CodeEditTextScrollView>
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout
+            android:background="@color/split_separator"
+            android:paddingTop="2.0dip"
+            android:paddingRight="2.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.aide.ui.views.CustomKeysListView
+            android:id="@id/modifiedFilesList"
+            android:focusable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            style="@style/BrowserListView" />
+    </com.aide.ui.views.SplitView>
+</FrameLayout>

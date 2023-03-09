@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Дополнительные настройки">
+        <SwitchPreference
+            android:title="TODO: Implement this method"
+            android:key="use_todo"
+            android:summary="Для применения настроек перезапустите приложение"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:title="Добавлять AndroidX в build.gradle"
+            android:key="use_gradle"
+            android:summary="Для применения настроек перезапустите приложение"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

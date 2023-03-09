@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="2.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/gotobrowserEntryImage"
+        style="@style/BrowserImage" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingLeft="3.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <TextView
+            android:id="@id/gotobrowserEntryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            style="@style/BrowserLabelLarge" />
+        <TextView
+            android:id="@id/gotobrowserEntryContainerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            style="@style/BrowserLabelSmallGray" />
+    </LinearLayout>
+    <ImageView
+        android:id="@id/gotobrowserHelpButton"
+        android:src="@drawable/info"
+        style="@style/BrowserHelpButton" />
+</LinearLayout>

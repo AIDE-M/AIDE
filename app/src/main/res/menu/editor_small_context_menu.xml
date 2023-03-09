@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/editorMenuOpenKeyboard"
+        android:title="@string/command_edit" />
+    <item
+        android:id="@id/editorMenuFix"
+        android:title="@string/command_fix">
+        <menu>
+            <item
+                android:id="@id/editorMenuFix0"
+                android:title="@string/command_fix" />
+            <item
+                android:id="@id/editorMenuFix1"
+                android:title="@string/command_fix" />
+            <item
+                android:id="@id/editorMenuFix2"
+                android:title="@string/command_fix" />
+            <item
+                android:id="@id/editorMenuFix3"
+                android:title="@string/command_fix" />
+            <item
+                android:id="@id/editorMenuFix4"
+                android:title="@string/command_fix" />
+            <item
+                android:id="@id/editorMenuFix5"
+                android:title="@string/command_fix" />
+        </menu>
+    </item>
+    <item
+        android:id="@id/editorMenuPreview"
+        android:title="@string/command_design" />
+</menu>

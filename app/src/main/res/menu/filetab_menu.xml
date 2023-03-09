@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/editorMenuClose"
+        android:title="@string/command_close" />
+    <item
+        android:id="@id/filetabMenuCloseOthers"
+        android:title="@string/command_close_others" />
+    <item
+        android:id="@id/filetabMenuCloseAll"
+        android:title="@string/command_close_all" />
+</menu>

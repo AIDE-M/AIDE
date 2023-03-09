@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="XML indentation size">
+        <com.aide.ui.preferences.PremiumEditTextPreference
+            android:title="XML indentation"
+            android:key="xml_indentation_size"
+            android:summary="Specify the number of spaces to indent."
+            android:defaultValue="4"
+            android:dialogTitle="Number of spaces to indent:" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="HTML indentation size">
+        <com.aide.ui.preferences.PremiumEditTextPreference
+            android:title="HTML indentation"
+            android:key="html_indentation_size"
+            android:summary="Specify the number of spaces to indent."
+            android:defaultValue="2"
+            android:dialogTitle="Number of spaces to indent:" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="CSS indentation size">
+        <com.aide.ui.preferences.PremiumEditTextPreference
+            android:title="CSS indentation"
+            android:key="css_indentation_size"
+            android:summary="Specify the number of spaces to indent."
+            android:defaultValue="2"
+            android:dialogTitle="Number of spaces to indent:" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Java indentation size">
+        <com.aide.ui.preferences.PremiumEditTextPreference
+            android:title="Java indentation"
+            android:key="java_indentation_size"
+            android:summary="Specify the number of spaces to indent."
+            android:defaultValue="4"
+            android:dialogTitle="Number of spaces to indent:" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="JavaScript indentation size">
+        <com.aide.ui.preferences.PremiumEditTextPreference
+            android:title="JavaScript indentation"
+            android:key="js_indentation_size"
+            android:summary="Specify the number of spaces to indent."
+            android:defaultValue="4"
+            android:dialogTitle="Number of spaces to indent:" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="C++ indentation size">
+        <com.aide.ui.preferences.PremiumEditTextPreference
+            android:title="C++ indentation"
+            android:key="cpp_indentation_size"
+            android:summary="Specify the number of spaces to indent."
+            android:defaultValue="4"
+            android:dialogTitle="Number of spaces to indent:" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Java import options">
+        <com.aide.ui.preferences.PremiumEditTextPreference
+            android:title="Single type imports"
+            android:key="max_single_imports"
+            android:summary="Specify the number of single type imports."
+            android:defaultValue="100"
+            android:dialogTitle="Number of single type imports:" />
+    </PreferenceCategory>
+</PreferenceScreen>
