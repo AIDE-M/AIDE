@@ -28,5 +28,6 @@ android {
 
 dependencies {
 	implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'com.android.support:multidex:2.0.1'
     
 }
