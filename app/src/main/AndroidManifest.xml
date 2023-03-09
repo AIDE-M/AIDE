@@ -3,7 +3,7 @@
     
     android:compileSdkVersion="29"
     android:compileSdkVersionCodename="10"
-    package="com.aide.clone"
+    package="com.aide.mob"
     platformBuildVersionCode="29"
     platformBuildVersionName="10"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -24,12 +24,12 @@
     <uses-permission
         android:name="android.permission.WAKE_LOCK" />
     <uses-permission
-        android:name="com.aide.clone_com.google.android.c2dm.permission.RECEIVE" />
+        android:name="com.aide.mob_com.google.android.c2dm.permission.RECEIVE" />
     <permission
-        android:name="com.aide.clone.permission.C2D_MESSAGE"
+        android:name="com.aide.mob.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
     <uses-permission
-        android:name="com.aide.clone.permission.C2D_MESSAGE" />
+        android:name="com.aide.mob.permission.C2D_MESSAGE" />
     <uses-feature
         android:name="android.hardware.touchscreen"
         android:required="false" />
@@ -43,7 +43,7 @@
         android:largeScreens="true"
         android:xlargeScreens="true" />
     <uses-permission
-        android:name="com.aide.clone_com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+        android:name="com.aide.mob_com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
     <application
         android:label="AIDE LiteMod"
         android:icon="@drawable/ic_launcher"
@@ -278,7 +278,7 @@
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:exported="false"
-            android:authorities="com.aide.clone.fileprovider"
+            android:authorities="com.aide.mob.fileprovider"
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
@@ -290,7 +290,7 @@
         <provider
             android:name="com.crashlytics.android.CrashlyticsInitProvider"
             android:exported="false"
-            android:authorities="com.aide.clone.crashlyticsinitprovider"
+            android:authorities="com.aide.mob.crashlyticsinitprovider"
             android:initOrder="90" />
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
@@ -333,7 +333,7 @@
         <provider
             android:name="com.google.android.gms.ads.MobileAdsInitProvider"
             android:exported="false"
-            android:authorities="com.aide.clone.mobileadsinitprovider"
+            android:authorities="com.aide.mob.mobileadsinitprovider"
             android:initOrder="100" />
         <receiver
             android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
@@ -356,7 +356,7 @@
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
             android:exported="false"
-            android:authorities="com.aide.clone.firebaseinitprovider"
+            android:authorities="com.aide.mob.firebaseinitprovider"
             android:initOrder="100" />
         <activity
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
