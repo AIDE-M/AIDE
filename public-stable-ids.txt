@@ -1134,7 +1134,7 @@ com.aide.mob:anim/trainerPagerTitleStrip = 0x7f080191
 com.aide.mob:anim/trainerSideDrawer = 0x7f080192
 com.aide.mob:anim/trainerToast = 0x7f080193
 com.aide.mob:anim/trainerToastButton = 0x7f080194
-com.aide.mob:anim/trainerToastText = 0x7f080195
+
 com.aide.mob:anim/trainerToastTitle = 0x7f080196
 com.aide.mob:anim/trainerViewPager = 0x7f080197
 com.aide.mob:anim/trainerlistentryBox = 0x7f080198
