@@ -1212,7 +1212,7 @@ com.aide.mob:anim/main = 0x7f0a0026
 com.aide.mob:anim/notification_action = 0x7f0a0027
 com.aide.mob:anim/notification_action_tombstone = 0x7f0a0028
 com.aide.mob:anim/notification_media_action = 0x7f0a0029
-com.aide.mob:anim/notification_media_cancel_action = 0x7f0a002a
+
 com.aide.mob:anim/notification_template_big_media = 0x7f0a002b
 com.aide.mob:anim/notification_template_big_media_custom = 0x7f0a002c
 com.aide.mob:anim/notification_template_big_media_narrow = 0x7f0a002d
