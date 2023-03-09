@@ -1,2 +1,0 @@
-com.aide.mob:anim/abc_fade_in = 0x7f010000
-com.aide.mob:xml/preferences_codestyle = 0x7f100004
