@@ -3037,7 +3037,7 @@ com.aide.mob:anim/toast_flavor_added = 0x7f0d06f1
 com.aide.mob:anim/toast_native_uninstalled = 0x7f0d06f2
 com.aide.mob:anim/toast_oom_code = 0x7f0d06f3
 com.aide.mob:anim/toast_internal_exception = 0x7f0d06f4
-com.aide.mob:anim/toast_style_updated = 0x7f0d06f5
+
 com.aide.mob:anim/toast_not_code = 0x7f0d06f6
 com.aide.mob:anim/toast_oom_git = 0x7f0d06f7
 com.aide.mob:anim/toast_git_cancelled = 0x7f0d06f8
