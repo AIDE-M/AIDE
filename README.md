@@ -33,10 +33,12 @@ AIDE-based mod that will help you develop mobile applications based on the Andro
 
 
 ## Where can I get it?
-As for now, you can get it only in [Telegram Group](https://t.me/aideremake). But when there will be completed version, it will be published in releases.
+As of now, you can get it only in [Telegram Group](https://t.me/aideremake) or [Github Actions](https://github.com/AIDE-M/AIDE/actions). But when there will be completed version, it will be published in releases.
 
 ## Contributing
 Help in the development of AIDE-M by contributing new features or improvements. We will be glad.
+
+We also want to restore some java code to do it need to decompile the class using jadx or other decompiler tool.
 
 Fork this repository and contribute back using
 [pull requests](https://github.com/AIDE-M/AIDE/pulls).
