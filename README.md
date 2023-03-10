@@ -22,6 +22,14 @@ AIDE-based mod that will help you develop mobile applications based on the Andro
 
 - [ ] Debugger
 
+### Source code map
+
+| Class | Role |
+| ----- | ---- |
+| `com.aide.ui.build.android.AaptService` | Responsible for indexing project |
+| `com.aide.ui.build.packagingservice.ExternalPackagingService` | Responsible for dexing and packaging |
+
+
 ## How is it different from AIDE?
 - Added aapt2
 - Added D8/R8
