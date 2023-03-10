@@ -37,7 +37,4 @@
         android:title="Advanced Settings"
         android:summary="AIDE Advanced Settings."
         android:fragment="com.aide.ui.preferences.SettingsPreferencesFragment" />
-    <header
-        android:title="Donate😅"
-        android:summary="Qiwi/PayPal: timscriptov" />
-</preference-headers>
+    </preference-headers>
