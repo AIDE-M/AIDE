@@ -1,19 +1,16 @@
 ![Issues](https://img.shields.io/github/issues/AIDE-M/AIDE) ![GitHub pull requests](https://img.shields.io/github/issues-pr/AIDE-M/AIDE) <img src="https://img.shields.io/github/v/release/AIDE-M/AIDE?include_prereleases&amp;label=latest%20release" alt="Latest release"> [![Build debug Apk](https://github.com/AIDE-M/AIDE/actions/workflows/android.yml/badge.svg)](https://github.com/AIDE-M/AIDE/actions/workflows/android.yml)
 # AIDE-M
 AIDE-based mod that will help you develop mobile applications based on the Android platform.
-
-<img style="width: 45%; height: 100%; padding-right: 10px" src=".github/resources/images/features_title_dark.png?raw=true#gh-light-mode-only">
-<img style="width: 45%; height: 100%; padding-right: 10px" src=".github/resources/images/features_title_light.png?raw=true#gh-dark-mode-only">
-
+## Features 
 - [x] APK Compilation
 
-- [x] AAB Support
+- [ ] AAB Support
 
 - [x] Java
 
-- [x] Kotlin  
+- [ ] Kotlin  
 
-- [x] R8/ProGuard
+- [ ] R8/ProGuard
 
 - [x] Code Completions (Currently for Java only)  
 
@@ -23,11 +20,8 @@ AIDE-based mod that will help you develop mobile applications based on the Andro
 
 - [x] Automatic dependency resolution  
 
-- [ ] Layout Editor
-
 - [ ] Debugger
 
-- [ ] Lint 
 ## How is it different from AIDE?
 - Added aapt2
 - Added D8/R8
